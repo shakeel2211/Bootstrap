@@ -1,0 +1,26 @@
+.container{
+    border: 8px solid black;
+}
+.row{
+    border: 4px solid red;
+}
+#col1{
+    background: pink;
+}
+#col2{
+    background: yellowgreen;
+}
+#col3{
+    background:hotpink;
+}
+#col4{
+    background:navajowhite;
+}
+#col5{
+    background: lightgray;
+}
+#col6{
+    background:lightblue;
+}
+
+

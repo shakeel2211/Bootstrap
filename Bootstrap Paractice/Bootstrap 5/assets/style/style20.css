@@ -1,0 +1,76 @@
+#header{
+   color: white;
+   background: rgb(226, 29, 29);
+}
+#menu{
+   list-style: none;
+   
+}
+#menu li{
+   display: inline-block;
+   
+}
+#menu li a{
+   text-decoration: none;
+   color: white;
+   padding: 15px 10px;
+   display: block;  
+}
+#menu li a:hover{
+   background: rgb(148, 2, 2);
+   color:yellow;
+}
+
+#logo{
+   font-size: 2rem;
+}
+#banner{
+   background: url(../image/alvin-engler-bIhpiQA009k-unsplash.jpg) no-repeat;
+   background-size:cover;
+
+}
+.title{
+   background:rgba(255,255,255,0.6);
+   padding: 10px;
+   margin: 0;
+}
+.banner-title{
+   padding-top: 5rem;
+   padding-bottom: 5rem;
+}
+.lead{
+   color: white;
+   background:  rgb(148, 2, 2,0.5);
+   padding: 10px;
+}
+.service-box i.fa{
+   color: rgb(226, 29, 29); 
+   font-size: 80px;
+   margin-bottom: 15px;
+}
+#font{
+   font-size: 80px;
+   color: rgb(226, 29, 29); 
+   margin-bottom: 15px;
+}
+h3{
+   font-size: 1rem;
+}
+.section{
+   padding-top: 60px;
+   padding-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

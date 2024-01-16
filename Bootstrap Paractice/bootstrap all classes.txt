@@ -1,0 +1,1583 @@
+                                                      BOOTSTRAP CSS CLASSES
+
+
+NO 0     ( bootstrap main website ka layout bnana kafi easy hota hai wo is liye k os k ander bootstrap ki classes hoti hain os ko use kar k htlm ka lay out tyar kar skty hain 	wo classes yee hain   ( container , row , col )                 )
+
+NO 1    Container class :-   (  hum kisi bhi div per container class lagaty hain to os ki width automatic hee 1140px ho jati hai is k sath jo yee div hota hai wo page k center main ho jata hai yee main div hota hai  yee container ki width screen k change bhi hoti rehti hai bootstrap main alag alag screen k according container ka size bhi change hota rehta hai                        )
+
+NO 2    CONTAINER-FLUID :-   (  is class say jo div ki width hoti hai wo automatic hee 100% ho jati 
+
+NO 3    Container class with different break points :-
+                              ( Extra Large = 1200px  ,  Large = 992px , Medium = 768 , small = 576  ,  Extra laarge = 576px say neachy      )
+
+NO 4    ROW  CLASS :-          ( sab say phely container class aye gee os k baad hee row class ati hai  jha py nea div dalna hai whi py phely row calss hee aye gee  container class sirf ak baar hee ati hai           )
+
+NO 5    COL CLASS  :-          ( jab hum ak container main 3 say 4 row div lety hain Jab hum equle div k tag bnaty hain to os k liye col class lety hain yee col class 2 tera ki hoti hai in main ak yee hai ap row main ak div lety hain os main class col lagaty hain os k baar 2ra div lay ose bhi col class lga dy ise tera ap 12 col div lay skty hain yee ak hee row main hon gay or on ki width bhi ak jesi hee ho gee       ) 
+                                Col class different break points    ( extra large:- col-xl  ,  large:- col-lg  , medium :- col-md  , small :- col-sm  , extra small       )
+
+NO 6    CLASS W-100             ( yee class break point k liye hota hai ager ak container main 4 row classes hon or ak row main 12 div hon or hum chaty hain k oper line main 2 div hee rahe to 2div k baad ak or new div lay gay jis main ( class w-100 ) aye gee is say baki div neachy aa jaye gay baki 10 ki bhi ise tera divide kar skty hain  )
+
+
+NO 7      Gird system how to make html layout :-    (  Bootstrap k Gird system main ak row k 12 hisy yaa div ho skty hain in k hison yaa div  k naam bhi hoty hain col-1, col-2 ,col-3 say col-12 tak on ko class ka name bhi diya jata hai example ak row hai os main 2 div use karni hain ak bari or 2ri thori see kam ho to hum div ki ak class main col-7 or 2ri div main col-5 use kar skty hain is say zayeda use nahi ho gaa is tera ap html layout bna skty hain html k liye sab say phely hum row ki class lay gay pher os main col class lay gay
+
+NO 8      list-style:none;         ( yee class menu main .... dots ko khtam karne k liye use ki hia )
+
+
+NO 9      Display:inline-block;    ( menu k ander jo li tag hain on ko ak line main lane k liye yee class use  hoti hai  )
+
+                                    Grid col class for different break points   (  extra large:- col-xl-2  ,  large:- col-lg-3 , medium :- col-md-6  , small :- col-sm-9 , extra small             )
+
+NO 10     Offset class :-  ( offset-6 is ka mean k hamari div 6 column  ki speace chor k start ho  div k  ander  say space lena sikhy gay jase ak div main col class ko mid main lana ho to hum offset  pperty use kare gay is property ki help say hum div k agay peachy space dy skty hain            )
+                            Media query offset class for different break points  ( no 1 extra large :- offset-xl-12  , no2 Large :- offset-lg-6  , no-3 medium :-  offset-md-4  , no-4  small :- offset-sm-3           )
+
+NO 11     ORDER CLASS :-    Reordering with Gird Numbers  Gird main in ki position easyliy change kar skty hain mean jiss ki position change karni ho ose order k hisab say number dy skty hain jis ko phely lana hai ose  div 1 k liye  order-0  div 2 k liye order-1 ki tera shuru kare gay sab say phely div ko order-0 say hee start ho gaa
+                            ager media query main -md screen kare to ye property medium,large,extra large tak chaly gee is say kam screen main wo sari classses real position main aa jaye gee ise tera her screen main position change kar skty hain
+
+                            MEDIA QUERY :- ( EXTRA LARGE :-( order-xl-4 ) LARGE :-( order-lg-6 ) MEDIUM :-( order-md-3 ) SMALL :-( oder-sm-12  )  EXTRA SMALL                                                                            
+
+NO12     Neasting Class :-  (  Nesting hai kiya ? Ager hum row main ak col lety hain  to os main 2 div lay ak col-8 or 2ra col-4  to is main phely div mean col-8 main phely row class lay gay 2 or div col lay skty hain  col-6 or col-6 k is tera os div main 12 col ki space or aa jaye gee   )
+
+
+NO 13    Margin classes     5 Auto class ( m-auto ) 2 margin-start auto ( ms-auto  )3  margin-end ( me-auto ) 1 ( { m-auto } margin auto say div ko agay peachy 2no terf say margin mil jata hai div center main aajati hai ) 2   ({ ms-auto } margin-start  is class say ap ko start mean shuru say margin mily gaa    )      3  ( { me-auto }  margin-end say div ko end say margin mily gaa  in ka margin 4ron terf say hee hota hai  )
+                             ( Margin ( m-5 ) , margin-start ( ms-4 ) , margin-end ( me-2 )  , margin-top ( mt-3 ) , margin-bottom ( mb-1   ) is main ap number day kar bhi margin dy skty hain           )
+                           
+                              Media Query:- ( no-1 =  EXTRA LARGE :- ( margin:- m-xl-3 , margin-start:- ms-xl-4 , margin-end:-me-xl-5 , margin-top:-mt-xl-2 , margin-bottom:- mb-xl-4  )  N02  LARGE :- ( margin:- m-lg-3 , margin-start:- ms-lg-4 , margin-end:-me-lg-5 , margin-top:-mt-lg-2 , margin-bottom:- mb-lg-4  )    N03    MEDIUM:- ( margin:- m-md-3 , margin-start:- ms-md-4 , margin-end:-me-md-5 , margin-top:-mt-md-2 , margin-bottom:- mb-md-4  )  NO4  SMALL:-    ( margin:- m-sm-3 , margin-start:- ms-sm-4 , margin-end:-me-sm-5 , margin-top:-mt-sm-2 , margin-bottom:- mb-sm-4  )                      
+
+N0     Margin new classes     ( Vertical margin:- my-3  /   is main hum oper say margin lay gay    )        (  is main hum vertical or horzontanly padding or margin seekhy gay   )
+                              ( Horzontal Margin :- mx-5    IS main hum neachhy say margin lay gay )
+
+
+
+NO 14    Padding classes    5 ( 1 padding:-( p-5 ) 2  padding-start (pt-4) 3 padding-end:- (pe-5 ) 4 padding-top (pt-2 ) 5 padding-bottom ( pb-5 )  )
+                            Media Query ( no-1 =  EXTRA LARGE :- (padding:- p-xl-3 , padding-start:- ps-xl-4 , padding-end:-pe-xl-5 , padding-top:-pt-xl-2 , padding-bottom:- pb-xl-4  )  N02  LARGE :- ( padding:- p-lg-3 , padding-start:- ps-lg-4 , padding-end:- pe-lg-5 , padding-top:-pt-lg-2 , padding-bottom:- pb-lg-4  )    N03    MEDIUM:- ( padding:- p-md-3 , padding-start:- ps-md-4 , padding-end:- pe-md-5 , padding-top:-pt-md-2 , padding-bottom:- pb-md-4  )  NO4  SMALL:-    ( padding:- p-sm-3 , padding-start:- bs-sm-4 , padding-end:-pe-sm-5 , padding-top:-mt-sm-2 , padding-bottom:- pb-sm-4  )                      
+ 
+
+NO     Padding new classes   ( Vertical padding:- / py-4    is main hum oper say OR neachy say padding lay gay )  (  is main hum vertical or horzontanly padding  seekhy gay   )
+                             ( Horzontal padding:-  / px-5    Is main hum agay say or peachy  say padding  lay gay )
+
+
+NO     NO-GUTTERS           ( No-gutters  Row div  main automatic padding or margin hota hai hum is ko  0 bhi kar skty hain to is k liye no-gutters class use ho gee row main  yee class row main hee use ho gee  )
+  
+
+
+NO 15   Horizontal alignment     class4( 1 justify-content-end , 2 justify-content-center , 3 justify-content-between , justify-content-around )  N01 (justify-content-end ( Ye class sirf row main hee use ho gee ak row div main 3 same width ki div lain col-3 ki in 3no div ki alignment sirf ak hee class say karni ho mean 3no div ko right side move karna ho to os k liye class aye gee  )    NO2      Justify-content-center  ( Ye class sirf row main hee use ho gee Ak row div lay os main 3div ko add kare ab on 3 div ko center main lane k liye alignment ki jati hai jase hum class justify-content-center use kare gay  )     3     justify-content-between   ( Ye class sirf row main hee use ho gee Ak row naam ki div lay os main 3 col div lay os  ko Alignment say  3no div main braber space lane k liye  class justify-center-between  use ki jati hai )   4      justify-content-arounr  (Ye class sirf row main hee use ho gee  Ak row naam ki div lay os main 3 col div lay ab in 3no div ko agay pechy or center say braber space de 
+                                 Media Query   ( Extra Large/ Justify-content-xl-around   /  Justify-content-xl-end  /  Justify-content-xl-center  /  Justify-content-xl-between  ) no2   Large / ( justify-content-lg-around  /  justify-content-lg-end  / justify-content-lg-center  /  justify-content-lg-between  )  N03    Medium      (  justify-content-md-around  / justify-content-md-end  /  justify-content-md-center   / justify-content-md-between  )    N04      Small     (  justify-content-sm-around  /  justify-content-sm-end  /  justify-content-sm-around  /  justify-content-sm-end  )      
+
+N0 16   Vercital Aligment       class 4  ( 1 / Align-item-start , 2 / Align-item-end , 3 / Align-item-center  ( Align-item-start  /  yee class bhi row main hee lagti hai  ap ak row naam say div lay os main 3 col div add kar dain 3no div k neachy say space mily gee mean div neachy say khali ho jaye gee   ) Align-item-end  /  Yee class bhi row main kaam karti hai row main 3col div lay 3no div ko oper say space dene k liye alignment ki jati hai  os k liye class Alignment-item-end aye gee   )  Align-item-center  /   Ak row naam ki div lay os main 3col naam ki div lay ab 3no div ko oper neachy say space dene k liye alignment ki jati hai jis say div center main aa jata hai os k liye class use ho gee        )
+                                Media Qurey   N01 (  Extra Large  / align-item-xl-start / align-item-xl-end  /  align-item-xl-center  ) N02 LARGE  (  align-item-lg-start  /  align-item-xl-end  /   align-item-lg-center  ) N03  Medium   ( align-item-md-start  /  align-item-xl-end  / align-item-md-center   )  Small (  align-item-smstart  /  align-item-xl-end   /  align-item-sm-center  )                                                                                                                               
+
+
+N0 17   Alignment-content        class 5  ( ALIGN-CONTENT-START / ALIGN-CONTENT-END / ALIGN-CONTENT-CENTER / ALIGN-CONTENT-AROUND /ALIGN-CONTENT-BETWEEN )     no1  ( ALIGN-CONTENT-START  yee sari class row div main hee lgy gee   AK row div main jab bhot sari div lety hai col naam say to row div height kam rehty hain ager height zayeda ho bhi jaye to content strechh ho jata hai hum jaty hain k width zayeda bhi rehe ho or content strech bhi naa ho to os k liye ak class ati hai    )     no 2     ( Ak row naam ki div main jab bhot sari div lay col naam say to  row div height kam rehty hain ager height zayeda ho bhi jaye to content strechh ho jata hai hum jaty hain k width zayeda bhi rehe ho or content strech bhi naa ho or content oper say space laye to mean content neachy aa jaye to os k liye class aye gee  yee class tab hee lagy gee jab hum height lagay gay    )    N0 3   (   Ak row naam ki div main jab bhot sari div lay col naam say to  row div height kam rehty hain ager height zayeda ho bhi jaye to content                                      strech  ho jata hai hum jaty hain k width zayeda bhi rehe ho or  contnt strech bhi naa ho or div oper say or neachy say space ho mean content center main rahe  to os k liye yee class aye gee yee class tab hee lagy gee jab hum height lagay gay )   N04   ALIGN-CONTENT-AROUND (  Ak row main 6 col div hon or is k ird gird gap dena ho to yee class use ho gee yee class bhi row div ko height dene say hee kaam kare gee    ) ALIGN-CONTENT-BETWEEN  (  Is main katne bhi space hoti hai wo darmeyan main aa jati hai  )
+
+N0 18   ALIGN-SELF               CLASS 3       (  1  ALIGN-SELF-START  / 2 ALIGN-SELF-END  /  3 ALIGN-SELF-CENTER  )
+                                 ALIGN-SELF-START  (  is main sirf ak div ki alignment ki jati hai ak row naam ki div lay os main 3col div lay abi os main say 3ri div ki alignment karni hai to os k liye align-self-start class lagi gee is say div k neachy say space aa jaye gee   )   N02   ALIGN-SELF-END  (  is main sirf ak div ki alignment ki jati hai ak row naam ki div lay os main 3col div lay abi os main say 3ri div ki alignment karni hai to os k liye align-self-end class lagi gee is say div k oper say space aa jaye gee   )   N03    ALIGN-SELF-CENTER      (  is main sirf ak div ki alignment ki jati hai ak row naam ki div lay os main 3col div lay abi os main say 3ri div ki alignment karni hai to os k liye align-self-	center class lagi gee is say div k cemter  say space aa jaye gee   ) 
+
+
+N0 19  FLEX-DIRECTION           CLASS 5   ( Flex-row / Flex-row-reverse /  Flex-column / Flex-column-reverse / Flex-fill  ) N01   Flex-row (Yee sari classes bhi row class main hee use ho gee is main div jiss tera say hahin ose tera say hee aye gee is main div row k tera aye gee  )   NO 2    Flex-row-reverse   (  flex-row-reverse hai kiya jase ap ak row naam ki div lety hain os main ap 4col div lety hain abcd ab in 4ron div ko reverse karne k liye yee  class use hoti hai  dcba like is tera )    N0 3    Flex-column     (   yee class row class k sath aye gee flex-direction  vertical ki tera aye gee mean oper say neachy    )  N04     Flex-column-reverse    ( Row class main jab ap col div lagaty hain jab ap chhaty hain k wo vertical aye oper say or reverse main aye to os k liye yee class aye gee )    N0 5      Flex-fill        ( yee clss jab kisi bhi col div main lagay gee to os ki width 100% ho jaye gee  or baki div ki width apas main devide ho jaye gee yee class tab hee use hogee jab is py width naa lgi ho gee )
+
+
+N0 20  dispaly classes
+
+  
+NO 21  d-inline-block   Display-inline-block    (  display inline block ka mean k div ko ak hee line main lana  )
+
+NO 22   Class:- d-none    Display-none            ( ye class jis div py bhi lagay gay wo gaib ho jaye gee wo div show nahi ho gee   is k say sath 2ri class bhi lgy gee d-block kis break point main show karni hai or kis main hide karni jo div karni hai ose py hee lgy gee  )
+NO 23  Class :- d-block   Display-block           ( is ka meaning hai k is say div dekhai dy gee show ho gee  is k sath 2ri class aye gee d-none yee 2no classes akhti hee lgy gee  )
+NO 24  Class :- d-flex    Display-flex            (  container main ak parent div lay os main 3 div or lay abc or ab parent div main d-flex lga dain to 3no div horzontal ki tera kaam kare gee seda ak hee line main ager in 3no div ko vertical k tera karna hai mean oper a pher b pher c or pher is k sath class flex-column aye gee ager in classes ko reverse karna chaty hain to class flex-conumn-reverse lga dee ose class main column k agy -reverse lga dy in main ap order-3 ki bhi classes lga sky hain order-div number ) 
+                                                  Media Query (Extra large / d-xl-none/ d-xl-flex /  d-xl-inline-block ) ( Large / d-lg-none / d-lg-flex / d-lg-inline-block )  ( Medium / d-md-none / d-md-flex / d-md-inline-block  )  ( Small / d-sm-none /  d-sm-flex / d-sm-inline-block  )
+
+NO 25  Display print utilities 
+ 
+                            d-print-none / d-print-inline / d-print-inline-block / d-print-block / d-print-table /                d-print-table-row /  d-print-table-cell / d-print-flex / d-print-inline-flex 
+                          ( Yee print point classes bhi kafi use hoti hai jase ak user hai html ka layout par raha hai jab wo print wo print nakalne ki koshes karta hai to hum chaty hain k print k baad menu naa ho to hum yee class use kare gay  d-print-none ise tera hum chaty hain k add wegera print k baad naa aye to yee class use kar skty hain   )
+
+
+
+N0 26   FLOAT              CLASSES:- (FLOAT-END , FLOAT-START )  (    Float hai kiya hum container main 2div  lay div a or div b  is dono ko ak side mean ak ko right or 2ri ko left main karna chaty hain to is say ak problem bhi aa jata hai k jo parent div hota hia os ka border oper hee band ho jata hai  to is problem ko hall karne k liye clearfix ki class use ho gee     )
+
+N0 27   CLEAR-FIX          CLASS :- CLEAR-FIX     (    Float hai kiya hum container main 2div  lay div a or div b  is dono ko ak side mean ak ko right or 2ri ko left main karna chaty hain to is say ak problem bhi aa jata hai k jo parent div hota hia os ka border oper hee band ho jata hai  to is problem ko hall karne k liye clearfix ki class use ho gee     )
+                           Media Query:-  ( Extra Large / float-xl-left / float-xl-right / float-xl-none   )  ( Large / float-lg-left / float-lg-right / float-lg-none  )  (  Medium /  float-md-left / float-md-right / float-md-none  )  ( Small / float-sm-left / float-sm-right / float-sm-none )
+
+NO 28   Overflow classes   2 ( Overflow-auto /  NO2 Overflow-hidden )  (  no1 is class main overflow auto ho jata hai mean scroll bar aa jata hai no 2  is class main jo text overflow ho jaye wo hidden ho jata hai   )
+
+
+N0 29   Width classe          ( w-25 / w-50 / w-75 / w-100 )    ( w-25 / parent div ka 25% width  / w-50 / parent div ka 50% width / w-75 / parent div ka 75% width / w-100   parent div ka 100% width )
+
+N0 30   Height classes        ( h-25 / h-50 / h-75 / h-100 )    ( h-25 / height 25% / h-50 / height 50% / h-75  / height  75% / h-100  / heighe 100%   )
+
+N0 31   View port classes     ( vh-100 , vw-100 , min-vh-100 , min-vw-100  ) ( view port heigh , view port width , minimam viewport height , minimam viewport width   )
+                               
+                              (  mh-100 is class ka meaning hai k maximam height 100 is k elaewa view port k liye bhi height or width bhi ati hain class vh-100 mean view port height  or vw-100 ka mean view port width hai  in k elawa min-vh or min-vw-100 is ka mean k view ki kam iz kam width or height hai ager koi content ager zayeda ho bhi jaye to yee kud hee ajust kar lay gaa  )
+
+
+N0 32   Position classes      5 ( position-relative , position-absolute , position-static , position-fixed , position-sticky )
+                                ( static,relative,absolute,fixed,stick,)(2- relative mian jga position hai wohi rahe gee jab tak ap helping property use nahi karo gay. 3-  ye according to screen kaam karta hai mean screen k start say hee start ho gaa pher helping property say position ko agay peach use kar skty hain  4-  fixed is say position fix hee rehti hai helping property lagane say left,right ho  5- sticky not work and not good  )
+
+
+N0 33  NEW position classes   3 (Fixed-top   NO2  Fixed-bottom   NO3  sticky-top ) ( NO1 fixed-top  yee  class ap jis div py bhi lagay os ki position top say fixed ho jaye div bhi container say bhar chali jaye gee )  ( NO2   fixed-bottom  yee  class ap jis div py bhi lagay os ki position bottom say fixed ho jaye div bhi container say bhar chali jaye gee )  ( NO3   Sticky-top  yee class jiss div py lagay gay ose same jga py fixed ho jaye gaa yee apni jga nahi chore gaa chaye jatna bhi ap 2ri div ko scroll kar lay     )
+                              
+
+NO 34  Color And Background Color   ( NO1 blue:-/bg-primary/text-primary ) ( NO2 gray:-/ bg-secondry / text-secondry ) (NO3 green:-/bg-success / text-success )  (NO4 red type:-/bg-danger / text-danger  ) (NO5 yellow:-/ bg-warning / text-warning ) ( NO6 tail:-/ bg-info / text-info ) ( NO7 litle gray:- / bg-light / text-light  ) ( NO8 drak gray:- / bg-dark / text-dark ) ( NO9  white:-/bg-white / text-white  ) ( BG -TRANSPARENT / TEXT-white-50 )
+                                    (    Yee 10 background color hain or in ki classes   OR text-white-50 ka meaning white ka       50% hai mean baki 50% teransparent ho gaa or ye class sirf text main aye gee backround color main nahi  )  )
+
+N0 35  tex-center                text-center  :- ( is class say ap text center main kar skty ho   )
+
+
+NO 36  text-align              4 ( Text-left / text-right / text-center / text-justify  )    text-left:- (is class say ap text ko center main kar skty hain )  text-right:- (  is  class say ap text ko right main kar skty hain )  text-center:- (  is say ap text ko center main kar skty hain )
+
+NO 37   text-lowercase         ( is say text ki shap change ho jati hai mean uppercase class say sare words yaa heading capital ho hoti hai  or lowercase class say   sare choti abc main aa jaye gay   )
+N0 38   text-uppercase         ( is say text ki shap change ho jati hai mean uppercase class say sare words yaa heading capital ho hoti hai  or lowercase class say   sare choti abc main aa jaye gay  )   
+NO 39   text-capitalize        ( is say text ki shap change ho jati hai mean uppercase class say sare words yaa heading capital ho hoti hai  or lowercase class say   sare choti abc main aa jaye gay  )
+
+
+N0 40   FONT WEIGHT             (bold,bolder,lighter,normal) (font weight mean bold say hai ) 
+ 
+NO 41   font-style                             font-italic    
+
+N0 42   FONT CLASSE            5 (  display-1 ,  display-2   ,display-3   ,  display-4   , Lead  )  ( Is main display-1 say display-4 tak font size hain 1 sab say bara size 2 is say chota size hota hai or lead sirf paragraph main use hota hai      )
+
+N0 43   List-unstyled          ( yee class is main menu main .... dots ko khtam karne k liye use ki  hai yee class bhi list-style:none ki tera kaam karti hai ) 
+
+N0 44   List-inline-item       (  yee class li mean list item main use hoti hai  is say phely ap ul yaa ol main order list yaa unoder list main ap class list-inline use kare gay to yee class lgy gee   )
+ 
+N0 45   tag blockquote         ( " footer name shakee kamoka"   ager ap last main is tera div main is tera say show karna chaty hain to yee tag blockquote use ho gee class bhi footer hee use ho gee   is line k neachy ap  is paragraph k baad ap ise tag main footer tag bhi use kare or class blockquote-footer aye gay os k ander naam apna naa likh skaty hain baki ager ap chaty hian to ap is ki alignment bhi kar skty hian )
+     
+NO 46   user-select-none       (  is main ager ap chaty hain k ap ka deta jo paragraph main hai ose user chori  naa kare to yee p tag main yee class use ho gee   )
+
+N0 47   TAG Button classes         ( no1/ blue:- btn btn-primary / no2:-/ gray:- btn btn-secondary / n03:-/ green:- btn btn-success / no4:-/ red:- btn btn-danger / no5:-/ yellow:- btn btn-warning / no6:- / tail:-/ btn btn-info / no7:-/ light gray:- / btn btn-light / no8:- / dark gray:-/ btn btn-dark / no9:-/ simpal:- / btn btn-link( in class say button ka color change ho jata hai is main phely ap button tag lay gay pher os main class button lay    )
+
+N0 48   TAG Outline Button Classse   ( no1:-/ blue:-/ btn-outline-primary / no2:-/ gray:-/ btn-outlint-secondary / n03:-/ green:-/ btn-outline-success / no4:-/ red:- / btn-danger / no5:- / yellow:- btn-warning /  no6:- / tail:- btn-info / no7:- /  light gray:- / btn-light / no8:-/ dark gray:-/ btn-dark   ) ( is class say button k color change ho jata hai hover ki tera   )
+ 
+N0 49   TAG Button size classes     ( 1- btn-lg / 2- btn / 3- btn-sm / 4- btn-block )   btn-lg   (  is  class say button ka size large ho jata hai  )  btn   (  is class say button ka size normal rehta hai   )  btn-sm  ( is class say button ka size normal ho jata hai  )
+ 
+N0 50   TAG btn-block               ( is class say button pori div ki jga lay leta hai jatni div ki width hoti hai    )
+
+NO 51    disabled                 (  yee kisi bhi button tag main os ki class k bhar disabled lagane say os ka jo btn hai still ho jaye gaa / or a tag main btn tag main class main hee aye gaa   )
+  
+N0 52   btn group classes :-       (  is class k liye ap phely ak div class lay os k under ap 2 yaa 2 say zayeda ap btn tag lay pher os k main div tag main ap class lagay btn-group to is tera ap ki btn class use ho gee   ) 
+
+NO 53   btn group classes size :-  3NO 1  btn-group-lg    NO2  btn-group-sm  	NO3  same you have
+                                   ( is k size bhi 3 hee hoty hain medium normal hai jo use karty hain or btn-group-lg yee large btn hai or btn-group-sm yee chota size hota hai    )
+NO 54   btn-group-vertical  :-    ( ager ap chaty hain k ap k button vertical hon to yee class use kar skty hain    ) 
+
+NO 55   group button toolbar classes   :-     btn-toolbar
+        ( yee class button tag k parent div k oper div main use ho gee yee main parent div ho gaa button tag kaa mean  ak div main toolbar ki class aye gee os k baad ak or div aye gee jis main class btn-group aye gee pher is k under button tag aye gaa  )
+ 
+         Most vip How to use fontawsome :-
+                                           (  fontaswome ko search karna parta hai yee link jo neachy ise copy kar k vs code main past kar dy  or pher fa waly icon main i tag save kar skty hain   
+              
+         LINK :- Ye fontawesome link hai :-       https://fontawesome.com/v4/icons/      
+
+         is main ap font icon set kar skty hain or ise lagane k baad yee tab tak use nahi ho gaa tab tak ap yee link oper nahi lagay gay jo neachy maine paste kiya hai is link say ap ka icon show ho gaa
+
+         yee link hai           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />                
+
+
+
+N0 56    How to use fontawesome        <i class="fa fa-bicycle" aria-hidden="true"></i>
+                                      yee use kase karna hai ye font tag li main lagty hain or yee btn tag yaa anchor tag main laga skty hian
+ 
+NO 57    Group Nasting Button Classes :-   
+                                         (  is class ka kaam kiya hai hum dekhty hain 3btn group tag main last waly btn main ak arrow ka neshan bna hota hai os py click karne py neachy 2 yaa 3 link show ho jaty yee class is liye use hoti hai    )
+                                         (  ak div lain os main  (btn-group) class lain os main ak or tag lain lay os main class say phely (type=:button:)lay or pher ( class="btn btn-danger" ) lain or pher ak extra class lain dropdown-toggle to class is tera show ho gee ( class="btn btn-danger dropdown-toggle"  ) pher is class k bhar or is tag k under  data-bs-toggle="dropdown" aria-expanded="flase" lay or pher tag k bhar action yaa koi naam lay skty hain or pher btn close kar dain or pher jo arrow main show karna hai os k liye sab say phely ul tag lain os main ( class="dropdown-menu" ) lain pher is main li tag or ander a tag lain or sabi a tag main (class="dropdown-item")  main yee class lain or a tag k close main wo linka hai jo arrow tag jo show karna hai wo add kare gay  tag close  )
+                                          ( ager ose k sath hee link add karna chaty hain to last li say phey ak li tag lay os main (class="dropdown-divider") or tag close kar dain      yee sara setup neachy day diya hai or in ko screen main show karne k line ak link hai jo oper lagy gaa wo phely link k baad    yee link neachy paste kar diya hai
+
+link jis k lagane k baad nasting btn arrow ki class show ho gee
+
+                           <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+                           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+                                        
+
+
+ <div class="btn-group">
+        <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          Action
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+      </div>
+      
+  
+
+                                                                    LIST GROUP ALL CLASSES
+
+
+
+
+NO 58     LIST  GROUP CLASSES :-  ( ager hum  ul or ol list main li tag lety hain to wo li tag py border lga ho or list item k under bhi border lga ho ise khety hain list-group class  to bootstrap main is tera ki list group bnane k liye bhi alag class hoti hain to is k liye ul or ol main list -group  class layin is say li tags k oper or os k ander border aa jaye gaa  is k baad ap li main ak   list-group-item  ki clss lain is say li tag ki formatting achi ho jaye gee      )
+
+N0 59     list-group-flush:-      (   ager hum ul or ol tag main list-group class k baad ak extra class lay  list-group-flush to is kaam yee ho gaa k  li tag k oper jo border aye gaa wo hide ho jaye gaa list-group main list item k color ki formatting k liye bhi alag alag classes hoti hain   )
+
+NO 60     List group color classes  :- (  ul or main jo li tag hoty hain os ko ap color bhi dy sakty hain   in ki 8classes hoti hain   list-group-item-light  ,  list-group-item-primary  , list-group-secondary  ,  list-group-item success  ,  list-group-item-danger  ,  list-group-item-warning  ,  list-group-item-info  ,  list-group-item-dark    )
+
+
+N0 61    New class for li or anchor tag :- 
+
+
+Active:-        ( active class li tag or anchor tag k liye use hoti hai is class say background blue ho jata hai    )
+
+Disabled:-      ( disabled  class bhi li or anchor tag k liye hee use hoti hai is say text ka color light gray ho jata hai  )
+
+
+N0 62    List Group horizontal class:-   (  list group horizaontal yee class ul mian aye gee is k baad li list ayi gee is say list item vertical mean inline ho jaye gee   )
+
+
+N0 63    list-group-item-action  :-   (    is class say list item tag click able ho jaye gaa  )  
+
+
+N0 64    List group with links and butons      (   ager hum chaty hain k list group item hover ki tera kaam kare to os k liye yee class trika ho gaa is main ap color bhi kar skty hain os agay color show karna hai   )
+                                               ( sab say phely ak div lain os main ( class="list-group" ) pher is k under a tag lain os main (class="list-group-item") pher is main ak or ectra class lay "list-group-item-action" to list is tera show ho gee (class="list-group-item list-group-item-action")  or tag center main list item one likh skty hain is say ap ka tag close ho jaye gaa  )
+
+
+
+
+                                                          
+                                                            ALL TABLE CLASSES
+NO 65
+
+
+                       table tags   ( table , thead , tr , th ,thead close , tbody tr ,  td   )
+   
+                         table       ( yee table tag main table class k baad yee extra class aye table tag ki help say hum koi bhi deta table ki show karna chaty hain to kar skty hain in ki koi styling nahi hoti in ki styling k liye bootsrap main classes dee gai hain jis main ak class table hai jo yee is class say deta table ki tera nazer aye gaa )
+  
+                         table-hover ( table main hover use karne k liye yee class use hoti hai  )
+
+                         table-dark   ( yee table tag main table class k baad yee extra class aye ager is table ko dark karna hai yee class aye gee tag class k sath hee ye gee  )
+
+                         thead-dark   ( yee class thead tage main hee use ho gee is say table ka head bhi dark ho jaye gaa )
+
+                         table-borderless  (yee table tag main table class k baad yee extra class aye ager hum chaty hain k talbe main border show naa ho yee class aye gee table tag main   )
+                       
+                         table-bordered      ( yee table tag main table class k baad yee extra class aye      ager hum chhaty hain k yee table k ander border verticaily bhi aye to yee class use ho gee  )
+
+                         table-striped     ( yee table tag main table class k baad yee extra class aye   ager hum table k under row main  styling karna chaty hain mean ak light gray or white pher light gray pher ak white  to is k liye yee class use ho gee )
+
+                         thead-dark         ( table ki heading main styling k liye bhi class ati hai ager heading ka color dark karna ho to yee class aye gee or ager light karna ho to class thead-light aye gee  )
+       
+                         thead-light         ( table ki heading main styling k liye bhi class ati hai ager heading ka color dark karna ho to yee class aye gee or ager light karna ho to class thead-light aye gee  )
+
+                         table-sm             ( yee class table k size ko chota karne k liye use hoti hai  )
+
+                         table color          ( table-light , table-primary , table-secondary , table-success , table-warning , table-danger , table-info , table-dark    ) in classes  say table k color change kar skty hain or yee classes tr main hee use ho gee 
+
+                         background color     ( bg-primary , bg-secondary , bg-info , bg-success , bg-danger , bg-warning  ) yee class tr tag main lgy gee is say background color change ho jaye gaa
+
+                         table-responsive     ( yee table tag k oper new main div main yee class aye gee ager data zayeda hai to is class say ap scroll bar lga skty hain  is ki ap media query bhi kar skty hain  mean  table-responsive-sm ya lg md  yaa xl )
+
+
+
+
+
+
+NO 66    Pagination class     ( hum dekhty hain k page yaa website k last main (  previous 1 2 3 4 next ) is meaning kiya hai meaning yee hai ak website ka deta alag alag page main devide kar diya hai taa k ak page per sara load naa par jaye hum sirf is ki styling hee kar skty hain is ka main kaam php main hota hai   )
+                              ( is main sab say phely last main div tag yaa nav tag lain gay os main ul tag lain pher ( class= pagination   ) aye gee pher is k ander li tag lain gay os main (class=page-item) lain gay pher li k ander hee a tag lain pher os main ( class=page-link ) or a tag k darmian main pervious aye gaa pher is tera say li tag or a tag lain or ise tera hee sari classes lain ap ka tag close ho jaye gaa  )
+
+
+N0 67    Breadcrumbs class    ( Home / Libary / Data  ) ( hum is tera ka php main use hota hai mager hum is ki styling kare gay  her page per hum is tera ka link pass kar dety hain jo btata hai is page per ane ka proper trika kiya hai  phely hum home py jaye gay pher libary or pher data per or jo page show ho raha ho gaa wo gray ho jaye gaa   )
+                              ( is main sab say phely nav tag yaa div tag lay gay os mian ul yaa ol tag lay gay pher os main ( clss="breadcrumb" ) lain gay os main li tag lain gay or os main ( class="breadcrumb-item" ) lay gay pher li main hee ak a tag lay gay jis k center main home / libary / data lay gay jo show karna hai      )
+
+
+
+
+
+
+                                                                           Farm classes
+ 
+
+
+N0 68   Name form      ( yee class form bnane k liye use hoti hain is class say ap ak label bnana hain jga ap jga ap apna naam likh skty hain   ) 
+                        ( is main sab phely ap k ( col-6 class ) div lain os main ( class=form-group ) lay yee main div main  class aye gee is k baad ( label tag ) lain os k center main name likhy jo ap nee show karna hai pher is k baad ak ( input tag ) lain os main ( class="form-control" )   jo k agay sare  tags  main use ho gee or close kar dain  )
+
+
+N0 69   Password form   ( yee class form bnane k liye use hoti hain is class say ap ak label bnana hain jga ap jga ap apna passward likh skty hain   ) 
+                         ( ap ak div lain os ( class=form-group ) yee main div main class aye gee is main ( label tag ) lain os k center main ( password ) likhy jo ap nee show karna hai pher is k baad ak (input tag) lain os main ( type="password" )likhy gay jo sirf password k liye aye gee  or  ( class="form-control" )   jo k agay sare  tags  main use ho gee or close kar dain  )
+                         ( ager ap chaty hain k user ko hint mily k password 8-20 words ka hai  os k liye bhi class aye gee ap ise main hee ( small tag ) lian os main ( class="form-text" ) os ka color k liye ( text-muted ) likhy or small tag k center main ap (your password must be 8-20 characters) likh skty hain jo k show ho gaa   )
+
+N0 70   Country           ( ak div lay os main ( class=form-group ) lain pher ak ( label tag ) lain os k center main contry likhy or contery k liye ( select tag ) lain os main ( class="form-control") lain or jatni country ka option lena hai otne hee ( option tag ) lay lain select tag main hee pakistan,india,bangladash,napal itne hee option tag lay lain or ( value="country name") lain tag close  )
+
+N0 71   Message form     ( ak div lain os main ( class=form-group ) lain pher ak label tag lain os k center main message likhna hai  pher is main ( taxtarea tag ) lain is main ( class="form-control") lain tag close   )
+ 
+NO 72   E-MAIL           ( ak div lain os main mian (class="form-gorup") lain os main lable tag lain or center label show karne k liye E-mail likhy pher ak (tag input) lay os main (value="abc@gmail.com")  or (class="form-control plaintext ") lay or is class main" k baad readonly  likhy  tag close    ) 
+
+N0 73   Form-control size  ( form-control-lg , form-control-sm ) ( is main ap form k size bhi change kar skty hain or yee class sirf ap (input tag) or (select tag) main hee use hoti hai (textarea tag) main use nahi ho gee  )
+
+NO 74   File form          ( ap ak div ( col-6 ) os main ak mian div lain jis main main (class="form-group") aye gee pher ak (label tag) lay os main name (file upload) lay pher ak (input tag)lay os main (type="file") lay or (class="form-control-file") lay tag close    )
+
+NO 75   Range form         ( ap ak main div lain os main main (class="form-group") lay os k baad main (label tag) lay os center main name( amount ) pher ak (input tag) lay os main( type="range" )( class="form-control-range") lay or tag close kar dain      )
+
+NO 76   Hobbies Checkbox   most important      ( Ak div lain os main mian (class="form-group") lay (label tag) lay os k center main ( hobbies ) aye gee pher ak div aye gaa jiss main (class="form- chak") aye gee pher (input tag) lay os main (type"checkbox") aye gaa pher (class="form-control-input")or pher (id="musicChak") aye gaa in tag main 3chazin use ho gee (type class id) pher ak (label tag) lain os main (for="musicchak")lay or (class="form-chak-lebel") aye gaa or center main music aye gaa is tera music k box ready ho jaye gaa )( ise tera ager or box bnana chaty hain to (input tag ki id ) or (label tag ki for="" ) label tag k center main next jo box ka naam dena hai wo likh lee agay sare box k liye ise tera say tag hee aye gay   )
+
+N0 77   Gander ratio    (   ( Ak div lain os main mian (class="form-group") lay (label tag) lay os k center main ( gander ) aye gee pher ak div aye gaa jis main (class="form-chak") aye gee pher (input tag) lay os main (type"radio") aye gaa pher (class="form-check-input")or pher (id="maleradio") aye gaa   pher ak (label tag) lain os main (for="maleradio")lay or (class="form-chak-lebel") aye gaa or center main (male) aye gaa is tera gander radio  k radio ready ho jaye gaa )( ise tera ager or box bnana chaty hain to (input tag ki id ) or (label tag ki for="" ) label tag k center main next jo box ka naam dena hai wo likh lee agay sare box k liye ise tera say tag hee aye gay   )
+
+
+
+
+                                                                      Custom select form classes  
+
+
+
+N0 78  custom select box             ( is calss say ak select box bnaya jata hai jis main ap box main country k naam add kar skty ho  )
+                                     ( ap ak col div lay os main (class="custom-select") pher os main ap 5 ( option tag ) lay jis main ap country k naam add kar skty hain  tag close    )
+
+N0 79  Multipal custom select box    ( multipal select box scroll bar ki tera hee kaam karta hai is main ap multipal country add kar skty hain  )
+                                     ( ak div lay os main (select tag) lay os main (class="costom-select"multipal ) lay pher is main ( option tag ) lain pher pher os main country add kar dain ise tera jatne chaiye option tag lay skty hain os scrollbar main jatne country show karna chaiye karty hain is k liye  (multipal size"3") pher scrollbar main 3 country hee add show ho gee     )
+
+                                                                      
+                                     
+                                                                     Custom input form file classes
+
+
+N0 80  Choose file                   ( ap ak col div lay os main ak or div lay or ( class="custom-file" ) is main (input tag) or (class="custom-file-input")or pher ak (label tag) lay or (class="custom-file-label") lay tag close 
+
+                      
+
+                                                                       Iput group classes
+
+
+
+N0 81 Message prepended      ( is main ap koi message show kar skty hain jase $ yaa kuch or    )
+                             ( ak col div  lay os k baad ak or div lay os main ( class="input-group") pher ak or div lay os main ( class="input-group-perpended" ) lay or div main ak ( span tag ) lay os main (class="input-group-text") lay or center main koi sign mean ($) show kar skty  hain    )
+
+N0 82 Message append         ( ak col div lay os main ak or div lay os main (class="input-group") pher ak (input tag) lay (calss="from-control") pher ak div lay os main (class="input-group-append") lay pher ak (span tag) lay os main (class="input-group-text") lay or span k center main koi message jase k ( @ yahoo.com  )  lay tag closs )
+
+N0 83  2side message show    ( ak col div lay os main ak or div lay or (class="input-group") ak or div lay os main (class="input-group-perpended") lay or pher ak (span tag) lay os main ( clss="input-group-text") or span tag k center main ($) show kar skty hain is k baad div close kar dain is say ak terf sign show ho jaye gaa or 2ri terf show karne k liye (input tag)lay or (class="form-control") lay pher ak div lay os main (class="input-group-append") lay or pher ak (span tag) os main (class"input-group-text") or center main koi sign jesa k (rs) show kar skty hian  is ter ap k dono side py sign show ho jaye gay
+
+
+NO 84  first name and last name    ( ak div tag lay os main ak or (div tag) lay os main (class="input-group") lay pher ak or div tag lay os main (class="input-group-perpended") lay pher ak span tag lay jis main(clss="input-group-text") lay or center main (mr) show kar dain or pher tag close kar dain  is k baad 2 (input tag) or in dono main (class="form-control") lay or (placeholder="first name") or 2ry placeholder main  (placeholder="first last") likh day or tag close kar dain
+
+
+N0 85  User name signin form        ( ak div lay os main (class="input-group") lay  pher ak (input tag) lay or is main (class="form-control") lay or pher (placeholder="user name")  pher ak div lay os main (class="input-group-append") lay or pher ak (btn tag) lay os main (class="btn btn-secondary") lay or btn tag k center main (signin) show kar dain or tag closs    )
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+N0 86 Nav classes methos            ( home , about us , Gallery , Content us   ) (ap is tera ki navgation kar skty hain without inline class k use kar k )
+                                    ( row div main ak (ul tag) lay os main (class="nav") lay or pher (li tag) lain or li tag main (a tag) lay os main (class="nav-link") or a tag k center main (home) show kar skty hain ise tera hee ap or bhi option bhi lay skty hain jesa k ( gallery,about us,content us,) ise tera hee li or a tag aye gay is kisi a tag ko (active or disabled) kar kar ksty hain   )
+                                    ( is main ab hum css ki styling kare gay  (.nav ki class lay gay or background ka color change kare gay )(.nav-link ki class lay agy or is ka color change kare gay)(pher is py hover lagane k liye .nav-link:hover lga kar is color or background change kare gay    )
+
+
+
+N0 89  Navbar                       ( navbar hai kiya ak hee line main company name logo menu search yaa text bhi dhal skty hain kuch is tera say (company name home gallery about us content us search btn)
+
+
+N0 90  Image classes                ( bootstrap main img tag k baad jab img lagai jati hai to to wo img div main pori nahi ati to ise proper div  main lane k liye classes use ho gee    )
+
+       Img-fluid                  ( ak col div lay os main image tag lay pher os main img add kargay to wo image div main bari aye gee ose proper div main lane k liye (class="img-fluid") use ho gee or yee class img tag main hee use ho gee )
+       img-thumbnail              ( Is class ko use karne say image k bhar 2px ka border show hho jata hai  ak col div lay os main image tag lay pher os main img add kargay to wo image div main bari aye gee ose proper div main lane k liye (class="img-thumbnail") use ho gee or yee class img tag main hee use ho gee )
+       Rounded                    ( yee class image ko thora saa rounded kar deti hai yee oper jasa btaya gea hai ise tera hee img tag k baad use hoti hai (class="fluid rounded) use ho gee )(is say ap rounded-left,rounded-right,rounded-top or rounded bottom bhi class use kar skty ho )
+       Rounded-circle             ( yee class image ko thora saa circel kar deti hai yee oper jasa btaya gea hai ise tera hee img tag k baad use hoti hai (class="fluid rounded-circle) use ho gee )
+       rounded-pill               ( yee class image ko thora saa capsole ki shkal dy deti hai yee oper jasa btaya gea hai ise tera hee img tag k baad use hoti hai (class="fluid rounded-pill) use ho gee )
+       img text                   ( yee class pic k neachy text k liye use hoti hai ) ( ak col div lay os main ( figure tag ) os main (col-md-4) os main ( img tag ) lay or os main img add kare or ( class="figure-img img-fluid" )  or 2 class add hon gee  is k baad (figcaption tag) lay os main (class="figure-caption" ) is tag k center main text add kar skty hain         )
+ 
+
+N0 91 VIDEO CLASSE                ( is class say ap video add kar skty ho )( ak col div lay os main ak or div lay or( class="embed-responsive embed-responsive-16by9" ) 16by9 ka meaning video ki height or width hai is main pher (iframe tag) lay or (class="embed-responsive-item") or (src="")main app ko jis jga shair ka option hai whi embed ka option ata hai os per scr ap add kar skty hian
+
+N0 92 Border class                ( is class say div k under border show ho jata ap div k ander koi paragraph layty hain to os py gray color ka border show ho gaa  )
+                                  ( ak col div lay os k under ak or div lay div lay pher os per (class="border") or (id="box") lay or div k center main hee paragraph save kar day  ) ( border-top,border-left,border-right,border-bottom in classes say ap kisi bhi jga border lga skty hain ) ( ager hum chaty hain k border oper say naa lgy to yee (class="border border-top-0") use kar skty hain ise tera ap ki bhi side py border use kar skty hain 
+
+      Border color classes        ( border-primary , border-secondary , border-success , border-danger , border-warning , border-info , border-light , border-dark , border-white  ) in classes say border k color change kar skty hain 
+      Border shadow classes       ( ise tera div k under jis jga border calss lgi ho ose jga ose jga  ( class="border shadow" ) in ki classes bhi hain ( shadow classes:-  1 shadow-none , 2 shadow-sm , 3 shadow , 4 shadow-lg )
+
+
+
+N0 93  Card classes               ( is main ak box type ka card bna hota hai jis k oper image center main card title or neachy paragraph hota hai yee 3no chazeon ho agay peachy kar skty hain   )
+                                  ( ak col div lay os k ander ak or div lay os py (class="card") or pher ose tag main (img tag) lay  or os main add kare or os main ak (class="card-img-top")lay is tera img ready ho jaye gee pher pher ab card k liye (h4 tag) os main (class="card-title") or is k center main bhi ( card-title )is tera card ka title ready ho jaye gaa  ab last paragraph liye ab pher is k baad (p tag) or paragrap add kar day  or ager neachy btn use karna hai to wo bhi use kar skty hain ager read more ki jga ap link bhi add kar chaye to kar skty hain to os k liye to (btn tag) ko remove kar k ose jga  2(a tag) lay lain  in anchor tag ki ( class="cark-link" ) or center main ( read more/another link ) use kar skty hain 
+                                  ( ager image ko neachy lana hai to ose jga say img ko cut kar k neachy btn k baad div ko close karne k baad use gee   )
+
+NO 94  Card-img-overlay            ( is class say ap k title or text or btn sab img k oper aa jaye gaa   )
+                                   ( ak col div lay os k ander ak or div lay os py (class="card") or pher ose tag main (img tag) lay  or os main add kare or os main ak (class="card-img-overlay") to is sara data image k oper aa jaye gaa tera ab card k liye (h4 tag) os main (class="card-title") or is k center main bhi ( card-title )is tera card ka title ready ho jaye gaa  ab last paragraph liye ab pher is k baad (p tag) or paragrap add kar day  or ager neachy btn use karna hai to wo bhi use kar skty hain or is text ka color bhi change karna hai to main div jga class card lgi hoi hai ose jga ( class=card text-whhite   ) lay color show ho jaye gaa
+
+N0 95  Card add in list-group      (  ak col div lay os main ak or div lay or (class="card")lay or ak (img tag) os main img add kare or ak (class="class-img-top") pher is k baad (ul tag) lay or os main yee 2 (class="list-group list-group-flush") lay or (li tag) lay or os main (class="list-group-item") lay or center main jo addd karna chaye kar skty hain ise ap or li tag lay skty hain   )
+
+            ALL CARD CLASSES ALL MOST IMPORTANT  LEC NO 38
+
+
+N0 96  Card group classses          ( is say ap ak group mian 3 say 4 yaa or bhi card add kar skty hain yee sare ak hee group main hee add hon gay   )
+                                    ( ak main div layin (class="card-group") k naam say is gruop main hee ap sare card add kar skty hain pher is main ak div lay jis main (class="col card") lay or pher ak img lay jis main ap (h4 ki heading) or card k title k liye (class="card-title")lay h4 k center main ap ( card-title  ) show kar dain or (p tag)lay  os main (class="card-text") add kar day ise tera ap or card bhi add kar skty hain   )
+
+N0 97 Card-deck                     ( ager ap chaty hain k group card main sabi card main sath sath gap bhi mily to hum sirf ki main div change kare gay mean card-group ki jga hum (card-deck) use kare gay )
+N0 98   Card-column                   ( is calss say card main column ban jaye gay bus hume main div card-deck yaa card-group ki jga ( card-column  ) add kare gay is main ap btn bhi use kar kar skty hain   )
+
+
+N0 99   Media Object                  ( yee hai kiya jase hum facebook yaa youtube main comment karty hain to hamari pic k sath title yaa name or comment add ho jata hai  yee bhi ise tera kaa kaam hota hai os comment ka bhi lena ho to yee sara content ko copy kar last close div say oper lga day   )
+
+N0 100  Badges classes                ( badge hai kiya yee btn yaa notification k ander ak choti see notification hoti hai number ki hisab say is ka mean jab hum gmail main dekhty hain  k read or unread email hoti hain  unread email main k under nhumbering hoti k itni email abi baki hain yee badges btn k elawa paragraph or heading k liye bhi use hoti hai  )
+        badge color                   ( badge-primary , badge-secondary ,badge-success  ) koi bhi color dena ho ap is tera dy skty hain
+                                      ( ak col div lay os main os main heading k liye (h2) tag lay or center main koi states add kar dy pher space dy or pher (span) tag lay or os main (class="btn btn-info") lay or ager style change karna ho to sath hee (class="btn-pills") bhi add kar skty hain or (span tag)k center main (states add) kar dy  pher span tag or h2 close kar dy or pher ak (a)tag lay os main (class="btn btn-primary") lay or center koi states(read more) add kar lay or tag closs kar dain     )
+
+
+N0 101  Progress bar                 ( progress hai kiya yee ak lambi line ki tera hoti hai 1 say 100% tak hoti hai jatni ap progress show karna chaty hain kar skty hain yee website main bhot use hoti hai     )
+                                     ( ak col div lay os main ak or div lay ( class="prograss" ) is main ak child div lay or (class="progress-bar") ager background change karna ho to bg-warning lay is ko width dy skty hain (style="width:55%") k is ki progress hai katni or is tag k center main ap % show kar skty hain mean (34%) tag close  ager ak hee progress main or progress add karna cahty hain to ise tera or main div progress lay pher child div progress-bar lay styling kar k last main div ko close hone say phely add kar dy    
+        progress-bar-striped         (  is class  say ap k bar ki styling ho jaye gee to is k liye  ak progress k div lay or pher child div progress-bar lay os main ap yee (class="progress-bar-striped") lay  )
+        progress-bar-animated        ( yee class prograss-bar-striped k baad yee  ( class="progress-bar-animated" ) use ho gee is say ap ki progress movement main ho jaye gee
+
+NO 102  Spinners                     ( jab hum page load yaa reload karty hain to os time show hota hai  ) 
+        spinner-border               ( ak col div lay os main (class="spinner-border") or 2ri (class="text-warning") lay or tag close    )
+        spinner-grow                 ( yee ball ki tera show hoti hain is liye ak col div lay os main ap ak or div lay or (class="spinner-grow") lay or ak or (class="text-info")lay tag close  )
+        size                         ( is main ap spinner k size bhi change kar skty hain ap (class="spinner-border") k agay (style="width:80px;height:80px;") is tera styling kar skty hain bus is ki height or width same honi chaiye     )
+        btn spinner                  ( spinner ko btn ki shkal main bhi dekh skty hain   )
+                                     ( ak col div lay os main (btn tag) lay or (class="btn btn-warning") lay or btn tag k cneter main ak (span tag) or (class="spinner-border") or span tag close kar day or btn tag k center main hee (loading...) yaa koi text add kar skty hain  or btn ko disabled karna chaty hain to is div k ki phely class k sath disabled lga dy )
+
+
+N0 103  Jumbotron                    ( yee ak div jis k ander ak heading paragraph hai or last main ak btn hai is k elawa hum img list bhi add kar skty hain koi bhi chez ager hum nee highlight karni ho to ise use kar skty hain  to is k liye hum sirf ak sirf main div main (class="jumbotron") hee use karni ho gee is say background gray ho jata hai or highlight ho jata hai is main ap background main img bhi lga skty hain  )
+                                     (  col div k baad ak or div lay yee main div ho gee jumbotron class say or  baad ak jo content add karna chaiye kar skty hain or lasr main btn add kar day   )
+
+N0 104  tooltip plugin               ( tooltip plugin yee btn k oper k sms show hota hai or yee sms light,left,top,bottom kisi bhi jga ap kar skty hain is main ap img bhi set kar katy hain yee a tag main bhi use ho skti hain     )
+                                     ( is ko use karne k liye  JQuery.js  or  popper.js  or bootstrap k link add karna hon gay jo k agay save hain yee body main script last main save ho gaa     )  
+                                     ( ak div lay os main (btn tag) lay or (type="button") lay or (class="btn btn-secondary") or is class k baad  ( data-bs-toggle="tooltip" ) or is k baad ( data-bs-placement="top" ) lay or ( title="Tooltip on top"  ) tag close       )
+                   
+
+
+
+                    (  
+
+                                       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+                                       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+            
+                                      <script>
+                                      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+                                      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                                      return new bootstrap.Tooltip(tooltipTriggerEl)
+                                                       })
+                                       </script>                                
+                                                                 
+
+                                                             
+                                                         
+
+                                                            )
+
+
+
+
+
+N0 105     popover                   ( Yee popover tooltip ki tera hee kaam karta hai is tooltip hover py kaam karta hai or yee popover click karne py kaam karta hai    )
+                                     ( is k liye ak btn tag lay gay is main aye gaa  no1(type="button")  os k baad class aye gee color set karne k liye   N02(class="btn btn-info btn-lg") main point aye gaa   N03(data-bs-toggle="popover") is k baad place change karne k liye bhi point aye gaa   NO4(data-bs-placement="top")  or pher content aye gaa is main ap koi bhi paragraph yaa koi content add kar  skty hain    N05(data-bs-content= (paragaraph)  or is k baad last main    N06(title="popover title") or btn tag  k center main ap jo show karna chaty hain wo add kar skty hain    )            )
+           dismissible popover       ( yee classes sirf a tag main hee use ho gee  phely a tag lay os main  NO1 Py ( tabindex="0" ) or pher color k liye  NO2(class="btn btn-warning") or pher main point  N03(data-bs-toggle="popover") or placement k liye   NO4(data-bs-placement="top") or pher content k liye (data-bs-content="jo show karna hai")        )
+                                     ( a tag lay   N01(tabindex="0") lay or color k liye (class="btn btn-success btn-lg") or  N03(role="button") or main point N04(dara-bs-toggle="popover") or 2nd mian point  NO5( data-bs-trigger="focas")  or pher title aye gaa  	N06(title="dismissible popover") or  pher content k liye point aye gaa    N07( data-bs-content="jo bhi paragraph add karna ho) or center main (dismissible popover aye gaa   )
+                                     
+                                   
+                                      
+                                        popover k liye yee code aye gay
+
+                                    
+                               (        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+                                       var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+                                       return new bootstrap.Popover(popoverTriggerEl)
+                                        })
+
+
+                                             )
+
+
+
+
+N0 106  Alert classes                ( alert yee ak div ki tera hoti hai is k under color change kar skty hain or heading or paragraph bhi bna skty hain     )
+                                      ( ak div lay or main (class="alert alert-primary") or is ka (role="alert" or tag k center k center main heading yaa paragraph bhi bna skty hain  )      )
+
+        Alert Box classes             ( yee ak div hoti ki tera hee hota hai is main ap color dy skty hain or paragh bhi bna skty hain is div k last main crose k nishan bhi hota hai  )
+                                      ( ak div lay os main ( id="liveplaceholder"  pher ak (btn tag) lay os main ap (type="button") lay or ( class="btn btn-primary") lay or ak (id="livealertbtn") lay or center main jo content add kar skty hain        )    )
+
+        Alert link box                ( is div main ak link bhi add hota hai ose user use bhi kar kar skta hai wo website bhi ho skti hai kuch bhi ho skta hai  )
+                                      ( ak div lay os main (class="alert alert-primary") lay or pher (role="alert") lay or center main content add kar dy content k baad a (a tag) lay os main (class="alert-link")lay a tag k center main link bhi add kar sakty hain is k baad div k center main bhi contert add kar skty hian         )
+        
+        Alert Additional              ( yee ka box hota hai os main heading hoti hai paragraph hota hai pher neachy ak underline hoti hai pher last main ak paragraph hota hai     )
+                                      ( div lay os main (class="alert alert-success") lay or (role="alert") lay pher os main heading k liye  (h4 tag) lay  pher paragraph k liye  (p tag) or neachy ander line k liye (hr tag)  or pher last main paragraph k liye (p tag) lay skty hain        )
+        
+        Alert icon box                ( yee alert box hota hai os ki starding main ak icon hota    ) (svg file icon fonder say mily gee)
+                                      ( ak div lay os main (class="alert alert-success d-flex align-item-center") lay (role="alert") lay or is k baad  svg lay gay yee icon k liye hota hai yee file ap ko icon finder say mily gaa os k baad pher ak div lay or os main paragraph add kar dy    )
+
+        Dismissing alert box          ( ye ak box hota hota hai os main heading tera ki type hoti hai or last main crose hota hai os py click karne say wo div remove ho jata hai    )
+                                      ( ak div lay os main (class="alert alert-warning alert-dismissible fade show")  lay or ( role="alert" )  or heading type k liye (strong tag) lay or heading add kar dy  os k baad  content add kar day or pher btn tag lay os main (type="button") lay or (class="btn-close")or pher (data-bs-dismiss="alert") lay tag close
+
+        
+          CDN PATH                   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+                                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+                                     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+                                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+        
+
+ poper and bootsrap  file             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+                                      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+
+NO 107   Models                       ( yee ak btn hota hai ise click karne py ak box open hota hai os main model title hota sath crose ka nishan neachy close btn or save charges ka btn hota hai    )
+                                      (bootstrap 5 lec no 46 or example     https://getbootstrap.com/docs/5.1/components/modal/    )
+
+
+
+N0 108   Accordion classes           ( is class main ak div hoti hai os main 3 accordion box hoty hain ak main accordion main item ho gee or last main ak arrow ka nishan ho gaa or neachy paragraph ho gaa pher neachy 2 accordion div hon gee or last main arrow ka nishan ho gaa os py click karne say ander say paragraph show ho jaye gaa  )   
+                                     video is link main hai  (  https://www.youtube.com/watch?v=w8XMKUGrrxM&list=PLdPwRNmUlk0ka9Woqt3Xz4YKr5Fy5wjQT&index=47     )
+NO  109  Collapse                    ( is main ak yaa 2 btn hoty hain ose click karne py ak content show hota hai  ise collapas khety hain )    )
+                                     lec no 48  (  https://www.youtube.com/watch?v=8svl-1v7dJQ&list=PLdPwRNmUlk0ka9Woqt3Xz4YKr5Fy5wjQT&index=48      )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

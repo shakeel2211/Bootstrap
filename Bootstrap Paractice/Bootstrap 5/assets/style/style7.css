@@ -1,0 +1,20 @@
+.container{
+    border: 8px solid black;
+}
+.row{
+    border: 4px solid red;
+}
+#col1{
+    background: purple;
+}
+#col2{
+    background: pink;
+}
+#col3{
+    background: brown;
+}
+#col4{
+    background: orangered;
+}
+
+

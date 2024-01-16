@@ -1,0 +1,814 @@
+N0 1 -   COLOR             (color:red;) (text yaa kisi chez ka color change karne k liye)
+
+N0 2 -   BACKGROUND-COLOR  (background-color:yellow;) ( is say background color change hota hai)
+
+N0 3 -   BORDER            ( border:2px solid red; ) (is say border ki width style or color change hota hai )
+
+N0 5 -   BORDER-STYLE      (border-style:solid groove outset dotted;)(*border-top *border-right *border-bottom * border-left )  (*solid *dotted * dashed * double* groove * ridge * inset * outset * none ) 
+
+N0 6 -   OUTLINE               (outline: 2px solid green;) (ye border k oper ki line hoti hai)
+
+N0 7 -   OUTLINE-OFFSET        (outline-offset:5px;) (yee border or outline k darman gap hota hai )
+
+N0 8 -   PADDING           (Padding:10px) (*PADDING-TOP *PADDING-RIGHT *PADDING-BOTTOM *PADDING-LEFT) (text or border k darman gap ko padding khety hain)
+
+N0 9 -   MARGIN            (margin:10px) (*margin-top  *margin-right  *margin-bottom  *margin-left) (padding ander say or margin bhar say gap dene k liye hota hai. ager div k neachy ak or div dalna hai to margin dy kar kar skty hain)
+
+NO 10 -  HEIGHT AND WIDTH    ( width:200px; ) ( width:300px ) ( is main div ko heighht or width dee jati hai)
+
+N0 11 - MIN-HEIGHT AND MAX HEIGHT   ( mini-height:200px)( max-height:500px ) (is main mini-height or max-height jatni ap nee dee hoi hai otni hee ho gee ager is say zayeda kare gee to contant overflow ho jaye gaa)
+
+N0 12 - MIN-WIDTH AND MAX-WIDTH     (* min-width and max-width    (min-width:300px;)( max-width:600px;)( is mian min-width or max-width jatni doo gay otni hee aye gee ager img tag ko lety hian or ose cover karna hai to img{width:100%} dy gay)
+
+N0 13 - BOX-SIZING   {box-sizing:border box; }(border box)(content box) padding dene say box ki width zayada ho jati hai border ki width ko fix rakhne k liye hee box-sizing property use hoti hai(contnet box) same raye gee
+
+N0 14 - OVERFLOW 
+
+value - (*hidden)(*scroll)(*auto)(*visible)        PROPERTY  (overflow:hidden)(overflow-x:auto)(overflow-y:scroll ;)    ( overflow )( overflow-x)( overflow-y)
+
+NO 15 - HIDDEN    (overflow:hidden;)         jo data overflow kare ose hadden kar dain            
+
+N0 16 - SCROLL    ( overflow:scroll;)        os main phely say hee scroll bar lga dety hain 
+
+N0 17 - AUTO      ( overflow:auto;)          is main autometic hee scroll bar aa jaty hain         
+
+N0 18 - VISIBLE   ( overflow:visible;)      jesa hai deta wesa hee raye gaa  
+
+N0 19 - OVERFLOW    (overflow:hidden; )     ( hidden) ( is main extra data hidden ho jata haiye property her kisi k liye kaam karti hai chaie data( x )say overflow howa ho yaa( y )say (x)overflow data ki wja say hota hai (y) jab img ki width zayeda ho jab hota hai )
+
+N0 20 - OVERFLOW-X   (overflow-x: scroll )( hidde,scroll,auto,visible)  ( jab (x) ki terf overflow ho to overflow-x say problem hal kar skty hain )
+
+N0 21 - OVERFLOW-Y    (overflow-y:hidden)   ( hidde,scroll,auto,visible)  ( jab (y)ki terf img yaa data overflow ho to overflow-y say problem hal kar skty hain
+
+            (VIP:- div main say data bhar nikal ana overflow khety hain is propleb ko hal karne k liye property use hoti hai) 
+
+N0 15 - BORDER-RADIUS   (border-radius:50px)  VIP:-(is main border 4ron terf say thori see golai main hoty hain is ko ap circle ovel yaa pora goal bna skty hain yee clock ki tera kaam karty hain)
+ 
+          PREFIX   (-MOZ-) yee mozila k liye hota hai 
+N0 17 - CSS BOX-SHADOW  PROPERTY ( box-shadow:2px 5px 10px 20px orange; )VIP:-(1-left or right say shadow 2-top or bottom say shadow 3-blur 4-spread mean shadow ko katne door tak phelana hai 5-color )( is main ak say zayeda shadow bhi day skty hain)
+
+N0 18 - CSS FLOAT       PROPERTY {float:right;} VALUE (left,right) (ak div k sath 2ri div ko lana jiss jga space khali ho.is main ak ya ak say zayeda div bna skty hain)
+
+N0 19 - CSS CLEAR       PROPERTY { clear:both } VALUE ( left,right,both ) VIP:-(ager oper wali dono div k sath float lga ho or data overflow kar raha raha ho to 3ri div jo neachy aa rahi ho to oper wali 2no div ko jiss ka data overflow kar raha hai to os problem ko clear karne k liye clear property use karty hain)
+                        (3ri div ki neachy lane k liye (clear)property use hoti hai)
+
+N0 20 - FONT SIZE       PROPERTY {font size:30px;}         (font ka size mean k katna bara dekhana hai )(font size px,%,1em main dy skty hain)
+
+N0 21 - FONT FAMILY     PROPERTY {font family:ariel;}      ( arial,verdana,helvetica) (font family mean kon sa font lagana chaty hain arial,verdana or helvetica )
+
+N0 22 - FONT WEIGHT     PROPERTY {font weight:bold;}       (bold,bolder,lighter,) (font weight mean bold say hai )    
+
+N0 22 - FONT STYLE      PROPERTY {font style:}             ( italic,oblique,normal,initial,inherit) (font style mean ittalic karne say hai)
+
+
+N0 23 - FONT VARIENT    PROPERTY { font varient:small-caps} (normal,small-caps) ( is main paragraph k sare taxt capital ho jaye gay mager phela lifz thora saa or capital ho jaye gaa)
+
+N0 24 - LINE HEIGHT     PROPERTY {line hight:30px}         (line height mean line k dareman heighht)( jo paragraph main ati hain)
+
+N0 25 - TEXT-ALIGN            ( right,left,center,jastify     (jis ka text left right 2no side say braber hon) ) ( yee text ko  alignment karne k liye use hoti hai jase right,left,center,jastify)
+
+N0 26 - TEXT-ALIGN-CENTER     (start,center,last,auto)        ( paragraph k last wali line ki alignment karna)
+
+N0 27 - TEXT-TRANSFORM        (upercase,lowcase,capitalize)   ( text trnsform say sare text uppercase mean sare capital or lowcase mean koi bhi capital nahi ho gaa or capitalize say sirf phela word hee capital ho gaa)
+
+N0 28 - TEXT-INDENT          (40px)                          ( text-indent paragraph ki first line ko ander indent karne k liye use hoti hai)
+
+N0 29 - WORD-SPACING         (20px)                          ( ak word say 2ry word k beach jo gap ata hai ose word spacing khety hain )
+
+N0 30 - LETTER-SPACING       (20px)                          ( ak word k ander jatne letter aty hain on sab main spacing dene k liye letter spacing use karty hain)
+
+N0 31 - TEXT-DECORATION:NONE      ( is say text k neachy ki line underline ko hat jaye gee  )
+
+N0 VIP  TEXT-TRANSFORM   VALUE( uppercase , lowercase )( is say text ki shap change ho jati hai)
+
+N0 31 - TEXT-DECORATION   PROPERTY {Text-decoration:underline red solid} VALUE:- 3 (no 1- underline,overline,line-through no2-any color no3-solid,dotted,double dashed,ways)
+
+        VIP:- (Is mian text k oper,neachy yaa center main line ati hai os k design or color change kar skty hian)
+
+NO 32 - WORD-WRAP      (word-wrab:break-word;)(break-word,normal) ( jab bhot bara word ose hota hai or width bhot kam hoti hai to wo word width say bhar chala jata hai to os problem ko hal karne k liye word-wrap property use ki jati hai) 
+
+N0 33 - WORD-BREAK     (word-break:break-all) (break-all , keep-all)(break all main sare lefz tooty hon gay width kam ho or last main word bara hon to wo toot k neachy aa jaye gaa(keep-all) keep-all ka koi faida nahi  )
+
+N0 34 - TEXT-SHADOW    (text-shadow:2px 4px 5px orange;) ((1-left or right say shadow 2-top or bottom say shadow 3-blur 4-spread mean shadow ko katne door tak phelana hai 5-color ))(Yee property zayeda heading k liye use hoti hai is mian taxt k peachy shadow nazer ati hai) 
+
+N0 35 - WHITE-SPACE     value (normal,nowrap,pre,pre-line,pre-wrap )is main pre-wrap hee kaam kaa hai baki koi kaam k nahi 
+        PRE-WRAP        vip ( yee bhi pre ki tera hee kaam karta jase hee enter yaa space doo gay aye gaa mager yee nowrap ki kaam nahi kare gaa meran ak hee line main nahi aye gaa  )
+
+N0 36 - NOWRAP          ( is main sara deta ak hee line main aa jata hai width kam hone ki wja say data overfolw kar jata hai)
+
+N0 37 - TEXT-OVERFLOW   PROPERTY (1-( white-space: nowrap;) 2 (overflow:ellipsis;) 3 ( text-overflow: ellipsis;)( VALUE:-1 clip ( default nowork,)2(ellipisis (is main overflow wala deta hidde ho jata hai or od ki jga ... aa jaty hain))(is main yee 3no property hee kaam karti hain koi ak miss kar dain to yee kaam nahi kare gee)
+
+N0 38 - WRITING MODE     PROPERTY:-( writing mode:vertical-rl;)value:-(vertical-rl,vertical-lr) VIP:-( yee property deta ko right say left or left say right ki rotate karne k liye use ki jati hai )
+
+N0 39 -  CSS COLUMN-COUNT  
+
+VALUE:-                          property:-
+
+* 1  column-count              (column-count:3;)         ( is main paragraph ko katne part main devid karna chaty hain 1,2,3,4 )
+
+* 2  column-gap                ( column-gap:10px;)       ( is say 2,3,4 paragraph main gap aa ajye gaa    )
+
+* 3  column-rule         (column-rule:5px solid black;) (is mian jatne bhi paragraph hon hgay on center main border line aa jaye gee is main px style or color ko change kar skty hain ) 
+
+* 4 column-span         (is main 2ri heading ko column oper lane k liye yee property use kare gay is k beghar 2ri heading column k under aa jaye gee or yee heading div k under hee aye gee )
+  
+
+40- list-style        property  ( list-style:none inside url(image/right-arrow,png); 
+
+        value:- type(circle,square,none) position (inside,outside) image   url(image/right-arrow.png)
+
+        list-style: type position image
+
+        vip( list-style:none  ye property ul mian ... dots ko khtam karne k liye use hoti hai)
+
+       vip:-( is main order list or unorder list bnai jati hai or right arrow yaa left arrow ki pic download kar skty hain   https://www.iconfinder.com/   https://www.iconfinder.com/)
+
+
+NO 41 -BACKGORND-IMAGE  PROPERTY:-   background-image:url(image) 
+
+       background-repeat:no-repeat;  (repeat,no-repeat,repeat-x,repeat-y,space,round)
+
+       background-position: 50%;     (left top,left center,left bottom,right top,right center,right bottom,center top,center center,center bottom ya vip px yaa  % )                   
+ 
+N0 42  * CSS BACKGROUND-ATTACHMENT       PROPERTY:-  ( background-attachment:scroll;)  VALUE:- (scroll,fixed) 
+  
+N0 43 - CSS BACKGROUND-SIZE        PROPERTY:-(background-size:150px; ) value:-( auto,lenght mean px,percentage%,cover,contain)vip:-( ye sari value pic k size change karne k liye use hoti hain ,is main auto no workhai,lenght px say size dy skty hain,percentage% nhi use hoti hai,cover say pic pori div main aa jati hai,contain say pic apne ap ko adjest karti hai pori nahi ati)
+
+N0 44 - CSS BACKGROUND-ORIGIN      PROPERTY:-(background-origin:content-box;)value( border-box,padding-box,content-box)(is main bataya jata hai k background kha say start karna hai)
+
+N0 45 - CSS BACKGROUNG-CLIP        PROPERTY:-(background-clip:padding-box)value( border-box,padding-box,content-box)( is main background-color k bare main btaya jata hai k kha say start ho gaa)
+
+
+N0 46 - CSS GRADIENT BACKGROUND    PROPERTY:-(background:linear-gradient(60deg,yellow,red,orange);)
+
+VALUE:-
+
+* linear gradient               ( linear gradient ak terf say 2ri terf jaye gaa top to bottom,left to right,right to left,bottom to top is main ap degree (deg)bhi dy skty hain)
+
+* radail gradient               (closest-side at x and y %,farthest-side at x and y %)( is mian ap center say yaa kisi point say color dy skty hain.center,right bottom, left bottom,left top)
+
+* repeating linear gradient     ( is main ap color kisi bhi angle say dy skty hain to right,to left,to top,to bottom)
+
+* repeating radail gradient     ( is mian ap close-side or farthest-side nahi use kar skty)
+
+VIP:-( ak say zayeda color dene ko color-gradient khety hian is main color ap degree(deg) main bhi dy skty hain or 2 say zayeda color bhi dy skty hian or percentage % main bhi dy skty hain)
+
+N0 47 - OPACITY      PROPERTY:- {OPACITY:0.5;}  VIP:-( ye div ko transparent karne k liye use hoti hai is main ap 0.1 say o.10 tak point dy skty hian) 
+
+N0 48- BACKGROUND-BLEND-MODE    PROPERTY {background-blend-mode:darken} VIP:-( BACKGROUND-BLEND-MODE mean ap ne background main gradient mean color or pic dono akathi dekhani hai)
+
+phely          { background-image:linear-gradient(lightblue,lightgreen),url(images/3.jpg),url(images/1.jpg); }
+
+baad main      {  background-blend-mode:difference; }
+
+N0 49 -    NONE         {display:none;}   ( yee kisi bhi chez ko hide karne k liye use hoti hai)
+
+N0 50 -    INLINE       { display:inline;}             (ye sari item ko ak line mian lane k liye use hoti hai jase li mean list item yee zayeda tag mian bhi use hoti hai)
+
+N0 51 -   Dispaly BLOCK        {display:bolck;}        ( yee kisi bhi tag ko div ki shkal dy deta hai kud hee width lay leta hai jab padding yaa margin property lay tab hee yee property use ho gee)
+
+N0 52 - INLINE-BLOCK    { display:inline-block;}     (inline-block inline mean ak hee line main raye gay block mean block ki tera kaam bhi kare gay jo bhi tag jase span tag sare ak line mian aa raye hian to hum chaty ose ko width bhi dy or padding or margin bhi ak sath hee dy skty hain ak line main )
+
+N0 53 - LIST-ITEM       { display:list-item;}        ( list-item mean ye li ki tera kaam kare gaa dott bhi kud hee aa ajye gay or is main list-item ki sari property bhi use ho skti hain jase list-style-image ya list-style-position)
+
+
+N0 54 - {visibility:hidden; }   ( hidden mean chupana bus yee apni jga nahi chorta bus wo point khali ho jata hai )
+
+N0 55 - {visibility :collapse }  ( collapse mean hidden hee hai mager yee table point mian property lgai jati hai) 
+
+N0 56 - CLEAN   property { clean:both; } ( is main jab oper wali div main jab float:right lagay gay or neachy wali div ko float:left aye gaa to os say say neachy wali div bhi sath oper hee aa jati hai to is problem ko hall karne k liye clear:both lagay gay    )
+
+N0 57 - POSITION 
+
+VALUE:- ( static,relative,absolute,fixed,stick,)(2- relative mian jga position hai wohi rahe gee jab tak ap helping property use nahi karo gay. 3-  ye according to screen kaam karta hai mean screen k start say hee start ho gaa pher helping property say position ko agay peach use kar skty hain  4-  fixed is say position fix hee rehti hai helping property lagane say left,right ho  5- sticky not work and not good  )
+
+N0 58-   Z-INDEX  property:-position { position:absolute;} 2- { left:200px} 3- {z-index:2}  ( yee position py depend karta hai z-index property position k beghar kaam nahi karti )
+         vip( is main 3 div lay pher os k box bnaye gay pher css kare gay, 3no box main border 2px solid red,top 100px,left:300px, dy gay 2ri or 3ri div main 50px zayeda kar dain gay )
+          ( ak alag say div ki css kare gay os mian width,height,position or font size property dy gay)
+          ( jis div ko oper lana hai os div main z-index property aye gee)
+ 
+
+N0 59 - media queries     @media screen and (max-width:900px ){{}}   VALUE:- * ALL * PRINT *SCREEN *SPEECH  ( is main features to bhot zayeda hain jase max-width,min-width,hover,min-height act) 
+
+VIP:-( alag alag media k liye css likhna  or madia queries main sab say choti screen per scroll aa raha hai to ose theak karna hai sab say choti screen width 100% dy or ager khe bhi float lga ho ose none kar dain mean sidebar yaa content main,or jab bhi sidebar yaa content ki width kare gay to % k sath kare gay is main wrapper mean main div yaa parent div ki width:auto kar dain pher scroll nahi aye gaa)
+
+TABLE PROPERTY
+
+N0 60 -   BORDER-SPACING    property:- border-spacing:10px (border-spacing:10px 20px is main phela px td table deta or 2ra px tr table row k liye hota border-spacing border ko space k liye use hota hai)
+
+N0 61 -   BORDER-COLLAPSE   (border-collapse:collapse) (ye property table selecter k under use kare gay ye table ki property hai )
+
+N0 62 -  VERTICAL-ALIGN    (property:-{vertical-align:top} (top ,middle or bottom) )(is main text ko ager text middle ya bottom main ho to ose bottom,middle,yaa top py laa skty hain )
+
+N0 63 -   CAPTION-SIDE      (caption-side:top;)( top,bottom) (yee caption table k oper choti see heading hoti hai is ko phely caption tag use karna hota hai html talbe main pher is ki css hoti hai yee caption table k oper yaa neachy hota hai )
+
+N0 64 -  EMPTY-CELLS       (empty-cells:hide;) (hide,show)(table main neachy kisi bhi tr ya td ko empty karna hai to html say empty kar k oper css main table k under empty-cells:hide; property say wo empty ho jaye gaa)
+
+N0 65 -  TABLE-LAYOUT      (table-layout:auto;) (auto,fixed ) ( is main table ki width bhi jati hai data zayeda hone ki wja ager width fix rakhy to data overflow ho jata hai is liye atuo zayeda use hoti hai )
+ 
+N0 66 - RESIZE   HELPING PROPERTY(overflow:both) {resize:horizontal} value (horizontal,vertical,both,none) ( ye property helping property k beghar kaam nahi karti horizontal main sign ki help say width bari kar skty hain,vertical main sign ki help say height bari kar skty hain,or both say width or height 2no hee bari kar skty hain sign ki help say,or none not work hai)
+
+N0 67 - CURSOR   PROPERTY:- { cursor:n-resize} ( is say ap k mouse ki sohi cursor div per change ho jata hai)
+
+N0 68 - div move  property:-{position:absolute;}helping property{ left 50%}value( left,right,top,bottom)( is main ap position lga kar or left,right,top,bottom koi bhi % per lga skty hain is say jatna chaiye div move kar skty hain)
+
+N0 69 - CLIP PATH   property:-     {clip path:polygon(50% 0%, 0% 100%, 100% 100%);} value(circle,ellipse,inset,polygon )no1 circle = ( ( is mian 3 chezon ki zarorat hoti hai radius,x-axis,y-axis(radius 30% at x 50%  y 50%) is main ap percentage use kar skty hain)ellipse=(is main 4chezon ki zarorat hoti hai x axis, y axis ,vertical radius ,horizontal radius)inset= ( is main image ko box ki shkal main cut kar skty hian top,right,bottom,left ) polygon= ( polygon mian jis tera chaiye ap shape bna skty hain jatne point hon gay otne hee x,t axis lene hon gay)
+
+N0 70 - SHAPE-OUTSIDE   PROPERTY:- N0 1 {clip path:polygon(50% 0%, 0% 100%, 100% 100%);} N0 2 shape-outside:(50% 0%, 0% 100%, 100% 100%)( is main clip path wala point aye gaa)
+
+( yee property clip-path k beghar use nahhi hoti)
+
+N0 71 - SHAPE-MARGIN   shape-margin:10; ( yee property shape main margin k liye use hoti hai)
+
+
+N0 72 - TRANSITION  PROPERTY:-
+
+{ transition-property: width,hight,background}  { transition-duration:2s,2s,2s;} (2,3,4 property zayeda use hoti hai)
+
+VALUE 5  (* transition * transition-property  * transition-duration * transition-delay  * transition-timing-function )
+
+no1: (short hand not use ) no2( transition kis chez py lagani hai height,width,yaa color py yaa kisi ak chez py bhi lga skty hian) no 3( animation katne dair tak chaly) no 4 ( animation katne dair tak chaly) no 5  ( ap transition ko dekhna kis tera chaty hain fast,slow,start slow yaa end slow)
+
+unit ( ease,linear, ease-in,ease-out,ease-in-out,step(4) cubic-bezier) vip (is main bataya ajta hai k enimation ko start or end kase karna hai enimation ki look change karne k liye)
+
+
+N0 73 -     TRANSFORM 2D   PROPERTY:- 1 , 2 , 3 , 4 IN THIS VIDEO
+
+
+VALUE:- 12
+
+*1 rotate (angle) {transform:rotate(30deg);} ( ye deg k hisab say rotate ho gaa 30 deg ya jo bhi deni ho)
+
+*2 translate (x,y)    *3 translate (x) *4 translate (y)    {transform:translate(30px,40px); ( translate px say move hota hai is main div move hoti hai x,y axis say div ko agay peachy kar skty hain)
+
+*5 scale(x,y)*6 scale(x)*7 scale(y)   (scale main px ya deg nahi hoti is main number dy skty hain ye box ki width or hight say conected hota hai ager width 200px hia or scale 2 dy gay to width 400px ho jaye gee)
+
+*8 skew(x-anhgle,y-angle)*9 skewx(angle) *10 skewy(angle)    { transform:skew(30deg)  (skew left bottom say angle leta hai)
+
+*11 matrix(n,n,n,n,n) ( is main sari property use kar skty hian )
+
+*12 none
+ 
+ no1 transform:rotate(60deg); no2  transform-origin( left bottom); no3 transform:rotate(60deg); no4  transition:transform 3s;   
+ 
+ (is mian transition bhi use kar skty hian smodness dene k liye transform ko 3no property ak sath bhi use kar skty hain)
+
+ (wase rotate center say lety hain or transform-origin ssay kis point karna chaiye  rotate kar skty hain div ko kis tera rotate karna hia left top,left bottom,right top,right bottom,is ko percentage% yaa px say bhi lay skty hian per is k sath transform ki property lgy gee)
+
+
+  #box{transform:skew(10deg),scale(1);}
+  #box:hover{
+            transform:skew( 160deg) scale(3);}
+
+#box:hover k liye oper box main 2,3,4 property lga skty hain jesa oper diya gea hai 
+
+
+
+N0 74 - transform 3d  property:no1 {transform:perspective(800px)rotateX(120deg)} N0 2 {transform-origin(left bottom);} N03 {transition transform 3s;}
+
+
+[ perspective() ye property main phely aye gaa is main 3no peroperty bhi use kar skty ho perspective,transform or transition  ]
+
+
+VALUE:- 12
+
+* rotateX(angle)        (ye oper say neachy or neachy say  oper rotate  hota)
+
+* rotateY(angle)        ( ye left say right or right say left rotate ho gaa)
+
+* rotateZ(angle)        ( ye normal hee rotate ho gaa )
+
+* rotate(x,y,z,angle)
+
+* translateZ(z)         ( translateZ apni jga say agay chala jata hai agay ki terf move hota hai)
+
+* translate3d(x,y,z)
+
+* scaleZ(z)             ( scalez agay ki terf kich jata hai)
+
+* scale3d(x,y,z)            
+
+* propective(n)
+
+* matrix3d(n,n,n,n,n,n,n,n)
+
+* none
+
+N0 75- PERSPECTIVE    PROPERTY:-  NO 1 persperctive:800px;   N0 2- perspective-origin:left bottom;
+
+
+value:-
+
+*left top * top * top right * right * bottom right * bottom * left bottom * left
+
+ (  perspective-origin main point yaa view ka pta chalta hahi k ap ne kis view say dekhna hai)
+
+ ( te perspective ko main div main use kare gay ap perspective ko 2 baar bhi use kar skty hian jab div ko rotate kiya jata hia to clear show nahi hota or jab hum perspective use karty hian clear show hota hia 3d look aa jati hai)
+
+
+
+N0 76- TRANSFORM-STYLE   property:-  NO1    transform: rotateY(30deg); NO2  transform-style: preserve-3d;  N03  transform-origin: right bottom;
+
+value:- 2 no1 flat    no2 preserve-3d   (is main bhi 3no property use kar skty ho yee property transform k sath hee use hoti hai is k beghar use nahi ho gee perserve-3d rotate agay peachy say nazer aye gaa) 
+
+
+N0 77 - BACKFACE-VISIBILITY    property:-    {  backface-visibility: hidden; } transform: rotatey(180deg);   .case:hover .content main  { transform: rotatey(180deg);}   
+
+VALUE:-        * VISIBLE  * HIDDEN
+
+
+( mean jab is ka back rotate karty hian 3d to wo show karna hai k nahi is main 4 div lay gay case,content,fornt,back or sabi ki calss lay gay or naam dain agy or pher css kare gay or in height,width,position,same dain gay or main div pheli div ko left or top 50% dain gay or pher margin -150px dy gy jis div center main aa jay gee or pher div back main transform rotatey(180deg) kare gay jis say back show ho jaye gaa ise div main backface-visibility:hidden lagay gay jis say jis say fornt div show ho jaye gee jab card k oper hover kare gay to content change ho gaa transform:rotatex(180deg)say
+
+or pher transition:transform 1s dy gay jis jis say fornt ka back show ho gaa pher last property aye gee transform-style:preserve-3d)
+
+( yee property bhi transform k sath hee use hoti hai is k beghar use nahi ho gee  )
+
+
+N0 78 -  position: absolute;   left: 50%;   top: 50%;   margin: -150px; 
+
+( Jab kisi div ko center main lana ho to yee property use hoti hai)
+
+or ager text ko center main lana ho to ye property use ho gee
+
+text-align:center; line-height:300px;
+
+
+
+N0 79 - ANIMATION   property:- @keyframes animation-example{            YAA        @keyframes animation-example{
+                            from{ css property }                                      0%{ css property }
+                             to{ css property }                                        100%{ css property 
+     
+
+NO1- animation-name                { animation-name: simple; }              ( ap jo bhi animation bnay gay os ko ak naam dy gay or koi bhi naam rakh skty hain)
+
+NO2- animation-duartion            {  animation-duration: 2s;}              ( animation ko katni dair tak chalana hai 2s,3s,4s,5s )
+
+NO3- animation-timing-function     { animation-timing-function: ease;}      ( animation ko smodness kase deni hia or katne time tak chalana hai )value( ease,linear,ease-in,ease-out,ease-in-out,step-start, step-end,step,cubic-bezier)
+
+NO4- animation-delay               { animation-delay:2s;}                   ( animation ko katne dair baad chalana hai )
+
+NO5- animation-iteration-count     { animation-iteration-count: infinite;}  ( animation ko katni baar chalana hai )
+
+NO6- animation-direction           { animation-direction: alternate; }      ( animation kis direction say chalana hahi reverse ya ilternate )
+
+
+NO7- animation-fill-mode           value:-(none,forwords,backword,both )    (animation none is not working,animation forwords main animation last main stop ho jeye gee,animation backword main animation delay time main hee start ho jaye gee, or animation both main animation delay time main start ho gee or animation last main stop ho jaye gee)
+
+NO8- animation-play-state          value ( paused,running )                  (animation-play-state  yee property hover main use kar skty hain is py jase hee mouse aye gaa to property k hisab say yaa to ruk jaye gee yaa chalti rahe gee to is k liye hover bnana ho gaa or box main paused wali property aye gee or hover main running wali property aye gee tab yee running wali property chaly gee ager paused wali property hee use karne hai to hover main hee use kar skty hain)
+
+NO9- animation                      ( short hand )
+
+VIP:- ( Ak div hai hum chaty hian k without hover os k color or deceration ko change karna chaty hain to yee animation ki property use ho gee or yee property box ki css karne k baad use ho gee koi sign nahi ho gaa maen{} )
+ 
+    
+
+N0 80 - user-select    property:- user-select:none;  ( is mian ap ka data jo div main hai wo chori nahi ho skta naa copy ho gaa is main ak none value hee kaam ki hai baki no working hee hain )
+
+
+N0 81 - BOX-DECORATION-BREAK  property:- box-decoration-break:clone; value ( slice,clone) ( box-decoration-break span tag main bar bar br lga kar use hoti hai pher sabi sabi border ko band karne k liye clone property use ho gee)   
+
+
+
+N0 82 - BORDER-IMAGE   value:-(BORDER-IMAGE-SOURCE,BORDER-IMAGE-SLICE,BORDER-IMAGE-WIDTH,BORDER-IMAGE-OUTSET,BORDER-IMAGE-OUTSET)(BORDER-IMAGE-SOURCE  ye border py image lagane k liye use hoti hai is say 4ron terf image aa jati hai)( BORDER-IMAGE-SLICE  ye border ko pura cover karne liye use hoti hai is main px nahi aye gaa simple number aye jase 21,22,23,24,)( BORDER-IMAGE-WIDTH  is say border-image ka px change kar skty hain )( BORDER-IMAGE-OUTSET is main pic ko div say katna bhar lay k jana chaty hain  ) (BORDER-IMAGE-repeat  value(repeat,stretch,space,round) is main yee 4 value use kar skty hian  )
+
+
+
+N0 83 - SIMPLE SELECTORS   (no1 type selector:-  p{ color:red;} no 2 -  class selector:- .head{ color:green;} ,no 3 -  id selector:- #box{ color:blue;} N0 4 -  ,universal selector *{color:red;)( *{ star selector sare tag ko cover karne k liye use hota hai )
+
+
+
+
+N0 84    ::AFTER           (::after and ::before pseudo Elements is k under content likhna lazmi hota is k beghar kaam nahi kare gaa is main ap color,img,gap bhi day skty hain  )     
+
+
+
+
+N0 85    ::BEFORE          (::after and ::before pseudo Elements is k under content likhna lazmi hota is k beghar kaam nahi kare gaa is main ap color,img,gap bhi day skty hain  )       
+
+
+
+
+N0 86    ::FIRST-LETTER    (::first-letter is say first leter ka color,background color,font size, first letter change kar skty hain)
+
+
+
+N0 87    ::FIRST-LINE      (p::first-line{} is main ap line ko line padding,margin,color,background color, change kar skty hain)
+
+
+
+N0 88    ::SELECTION       (::selection say phely paragraph py double click karne background blue show hota hai is selection ko change ka color change kar skty hain) 
+
+
+
+
+
+N0 89    ::PLACEHOLDER     ( ::placeholder yee input tag output tag k liye use hota hai tag main use kar k pher is ki css kar skty hain yee video main hee pta chaly gaa ap ko)
+
+     
+
+N0 90     COUNTER-INCREMENT AND COUNTER-RESET
+
+
+
+PROPERTY:- 3 
+
+* COUNTER-INCREMENT  {counter-increment: my-counter 1;} 
+
+* COUNTER-RESET      {counter-reset:my-counter 0;} ( is main ap koi bhi naam dy skty hain jase my-counter,book,section)
+
+* COUNTER ()         {content:"books"counter(my-counter)":";}( yee property ::before yaa ::after main use hoti hai or pher content( koi naam ) ata hai  )
+
+ vip ( is main sab say phely counter-reset use hota hai body main pher h2 yaa p::before main dono property use hon gee 2re number py conuter() is content bhi aye gaa use ho gaa 3re number py counter-increment )
+
+
+N0 91 CARET-COLOR    property:-textera{caret-color} or input{caret-color}
+
+
+vip( yee pointer ka point jo bling karta hai os k color ko change karne karne k liye property use ki jati hai ye property textrea or input jase tag ki tera k or bhi tag k liye use hoti hai) 
+
+
+
+N0 92 
+
+*  ::-webkit-scrollbar           #box::-webkit-scrollbar{
+
+*  ::-webkit-scrollbar-thumb     #box::-webkit-scrollbar-thumb{}
+
+*  ::-webkit-scrollbar-track     #box::-webkit-scrollbar-track{}
+
+*  ::-wetkit-scrollbar-corner    #box::-webkit-scrollbar-corner{}
+
+vip ( -webkit- is liye use karty hain k yee bhot kam brower main use hota hai or yee property scrollbar ko style dene k liye use hota zayeda color k liye linear-gradient use hota hai is main 4 property use hoti hain)
+
+
+
+
+
+N0 93           GRID vip 25 property most emportant 
+
+
+
+ 1 gird-template-column  value( repeat(2,1fr) px) { grid-template-rows: 200px 200px; }        ( yee property oper say neachy chahlti hain or yee height k liye use hoti hai )
+
+
+
+2 gird-template-row { grid-template-columns: 200px 200px auto;} ( yee property number ki ter chalti hian 1,2,3, is main ap ne katni width k katne column bnane hian )          
+
+
+
+3 gird-template-areas   (not use,not work,no good)       
+
+
+
+4 gird-template                     
+
+5 gird-row-gap                   
+
+6 gird-column-gap                    
+
+
+7 gird-gap                {gird-gap:20px}( yee gap k liye use hoti hai is row say bhi dy skty hian or column say bhi)            
+
+
+
+10 justify-content     value (start,end,center,stretch,space-around,space-between,space-evenly )(is main ager width or height zayeda hai to pore teack ko hee move kar skty hain sari div move ho jaye gee property or value ki help say ) 
+
+
+
+11 align-content        value (start,end,center,stretch,space-around,space-between,space-evenly ) (yee property vertical tor per kaam karti hai is main pore track ko oper say neachy move kar skty ho )
+
+
+
+12 gird-auto-rows         {grid-auto-rows:80px;}   ( jab hum container mian (gird-template-row)    property use karty hain to 10div main say 5 div ki row    property use karty hain baki 5 ki grid-tamplate-row    use nahi katy hto wo simple hee rehty hain to ine auto row dene k liye yee property use hoti hai  mean gird-auto-row:90px; )
+
+
+
+13 gird-auto-columns      {grid-auto-column:70px;} ( jab hum container mian (gird-template-column) property use karty hain to 10div main say 5 div ki column property use karty hain baki 5 ki grid-tamplate-column use nahi katy hto wo simple hee rehty hain to ine auto row dene k liye yee property use hoti hai  mean gird-auto-column:90px; )
+
+
+
+14 gird-auto-flow
+
+
+
+15 gird-row-start        ( ye property gird ki position change karne k liye hoti hai mean gird ki row ko start kha say karna hai)
+
+
+
+16 gird-row-end          ( ye property gird ki position change karne k liye hoti hai mean gird ki row ka   end kha  py karna hai)
+
+
+
+17  gird-row             (short hand good)
+
+
+
+18  gird-column-start    ( ye property gird ki position change karne k liye hoti hai mean gird ki column ko start kha say karna hai)
+
+
+
+
+19  gird-column-end      ( ye property gird ki position change karne k liye hoti hai mean gird ki column ko   end kha py  karna hia)
+
+
+
+20  gird-column          ( short hand good)
+
+
+
+
+21  gird-area            (not use,not work,no good) ( short hand not easy and not useable )
+
+
+
+8   justify-items        value (start,end,center,stretch)(ye harjontli side say kaam karta hai or yee property container main hee use ho gee mean sari div k lliy hai )             
+
+
+
+
+22  justify-self         value (start,end,center,stretch)(ye property horjontli side say hee kaam kare gee per yee sirf ak div k liye hee hai jis ko ap chaye)
+
+
+
+9   align-items          value (start,end,center,stretch)( in value k hisab say jab hum toolbar f12 open kare gay to div start,end yaa center main aye gee yee property ager container main use kare gay to sari bari say choti ho jaye gee or apni jga py hee start,end,yaa center main ho gee)
+
+
+
+
+23  align-self          VALUE4(start,end,center,stretch)( ager sirf ak div ko bari say chota karna hia apne hee point py hee to align self property use ho gee)
+
+
+
+24  order            {order:3;} (is say ap div ko agay peachy kar skty hain number k hisab say ye ak kism ka short cut hai)()
+
+
+
+25  fit content    {grid-template-columns:fit-content(200px)fit-content(300px)1fr ;} ( ye property container main grid-temple-column main use ho gee pher ap html main px k hisab say parahgraph add kar skty hain jatne column k liye lagana chaye on bar hee fit-content(200px) aye gaa)
+
+
+
+26  Nested grid    ( is ki koi property nahi hoti ) (nested grid mean ak div k under or div add karna.)( html main div k ander or div add kar skty hain pher css main ose div main .item4 > div{ display grid  property lga k agay css kar skty hain )
+
+
+
+vip ( jab grid main koi div kisi 2ri div k peachy chali jaye ose grid overlapping kety hain z-index in main yee property bhot usefull hai ager kisi div k neachy koi div aa ajye to os div main z-index:1; property use ho gee)
+
+   
+    (no1  gird-template-column  value( repeat(2,1fr) px)  no2  2 gird-template-row  value( repeat(2,1fr) px) yee property container main hee use hoti hain)
+
+    ( is main grid-column:1/span 2; lga k column yaa row main os div ki with yaa height ko bara kar skty hain 2ri div k barber jga lay lay gaa )
+
+
+
+94  text-decoration-thickness   PROPERTY:-text-decoration-thickness:10px;
+
+     1 text-decoration-line    value  ( under-line , overline , none)  2 text-decoration-color   ( any color)3 text-decoration-style   value ( dashed,double,dotted,solid)
+
+
+
+95   text-underline-offset   PROPERTY:-  text-underline-offset:10px;
+
+     1 text-decoration-line   value  ( under-line , overline , none)  2 text-decoration-color   ( any color)  3 text-decoration-style   value ( dashed,double,dotted,solid) vip ( ye property text under line k neachy line ko gap deta hai )
+
+
+
+
+96 CSS CURRENTCOLOR    PROPERTY:- border: 10px solid red;
+
+( is main phely kisi or jga color ho pher hum yee property use kar skty hain color k agay bhi current color use kar skty hain)
+
+
+
+97 ::marker pseudo element  property:-  ul li::marker{  color: aqua;}
+
+( yee poerty oder list or unorder list main use hoti hai on ka color change karne k liye)
+
+
+
+
+
+98   input{ font-size: 20px;
+
+            border: 10px solid red; } 
+
+     input:placeholder-shown{
+
+            border: 3px solid fuchsia; }
+
+(:placeholder-shown  ye property css main input tag main use hoti hai ye property date,month,week,time main use nahi hoti )
+
+
+
+
+
+99    PROPERTY:-  scroll-behavior:smooth;               [ i love this videos]   [ i love this videos]
+
+           html{scroll-behavior: smooth; }   ( property is tera use ho gee )
+
+ ( Ye property pore html ko scroll lagane k liye use hoti hai pora page oper say nachy aa aye gaa) 
+
+
+100     align-items: center;      ( div ko center main lane ka liye use hoti hai)
+                   
+101       justify-content: center;   ( div ko center main lane ka liye use hoti hai)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
